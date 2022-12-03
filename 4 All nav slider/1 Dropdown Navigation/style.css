@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background: red;
+
+	}
+
+	nav ul{
+		width: 80%;
+		height: 50px;
+		background: yellow;
+		margin: 0 auto;
+	}
+
+	nav ul li{
+		width: 100px;
+		height: 50px;
+		float: left;
+		list-style: none;
+
+	}
+
+
+	nav ul li a{
+		padding: 10px 25px;
+		color: lightgreen;
+		font-size: 18px;
+		font-weight: bold;
+		float: left;
+		text-decoration: none;
+
+	}
+
+	nav ul li .one{
+		margin: 0;
+		padding: 0;
+		width: 100px;
+		height: 257px;
+		margin-top: 50px;
+		display: none;
+
+	}
+
+	nav ul li:hover .one {
+		display: block;
+	}
+
+
+	nav ul li .one li .box{
+		margin: 0;
+		padding: 0;
+		width: 100px;
+		height: 260px;
+		background: black;
+		margin-left: 100px;
+		display: none;
+		margin-top: 50px;
+
+	}
+
+	nav ul li .one li .box li{
+		width: 100px;
+		height: 50px;
+		float: left;
+	}
+
+	nav ul li .one li .box li a{
+		padding: 20px 25px;
+	}
+
+	nav ul li .one li:hover .box{
+		display: block;
+	}

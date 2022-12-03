@@ -1,0 +1,518 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: 	none	;
+text-decoration: none;
+}
+
+body{
+
+	font-family: roboto;
+}
+
+.web{
+	width: 100%;
+}
+
+.wrapper{
+
+	width: 100%;
+	height: 600px;
+	background: url(image/food5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: 	left	;
+
+
+}
+
+
+.main{
+		width: 	80%;
+		margin: 0 auto;
+}
+
+header h1{
+		color: 	white;
+		margin-top: 	30px;
+		float: 	left;
+}
+
+header	nav ul{
+
+		width: 	60%;
+		height: 	50px;
+		float: 	right	;
+
+}
+
+header	nav ul li{
+		padding: 10px 35px;
+		display:flex;
+		justify-content: center	;
+		align-items: center;
+		float: 	left;
+		margin-top: 25px;
+}
+
+header	nav ul li a{
+		font-size: 	16px;
+		color: 	white;	
+		text-transform: uppercase;	
+
+}
+
+header	nav ul li a:hover{
+
+		color: 	#86638C;
+}
+
+/*header end*/
+
+/*start content*/
+
+
+.content{
+
+		width: 	450px;
+		position: 	absolute	;
+		height: 250px;
+		top: 50%;
+		left: 	50%;
+		transform: 	translate(	-50%,-50%);
+		background: 	#D4D8D9;
+}
+
+.content h1{
+	text-align: center;
+	color: #2C3A42;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-weight: 650;
+}
+
+.content .btn1{
+padding: 8px 20px;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: 750;
+margin-left: 36%;
+background:#D4D8D9;
+outline: none;
+border: none;
+}
+
+.content .btn1:hover{
+
+	background: transparent;
+	border: 2px solid orange;
+	color: orange;
+}
+
+/*end content*/
+
+
+/*start flavers*/
+
+.flavers{
+	width: 100%;
+	height: 420px;
+	background: #2A3B40;
+	float: left;
+}
+
+.flavers .content1 {
+	width: 50%;
+	height: 100%;
+	margin-top: 50px;
+	float: left;
+	
+}
+
+.flavers .content1 img{
+width: 500px;
+margin-left: 30px;
+
+}
+
+.flavers .content1 h1{
+
+	color: white;
+	font-size: 30px;
+}
+
+.flavers .content1 p{
+	padding: 10px 0;
+	color: white;
+	height: 100px;
+	line-height: 35px;
+}
+
+
+/*start latest*/
+
+.latest{
+	width: 100%;
+	height: 300px;
+	background: #D4D8D9;
+	float: left;
+}
+
+.latest .new-testes{
+
+	width: 30%;
+	height: 80%;
+	margin-top: 20px;
+	float: left;
+	margin-left: 3%;
+}
+
+.latest .new-testes li{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #2A3B40;
+	margin-left: 10px;
+	float: left;
+}
+.latest .new-testes h1{
+
+	color: #2A3B40;
+}
+.latest .new-testes  p{
+	padding-right: 20px;
+	color: gray;
+}
+
+
+
+/*Start oder*/
+
+.oder{
+
+	width: 100%;
+	height:2200px;
+	background: url(image/food.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+.oder .content2{
+
+	width: 100%;
+	height: 922px;
+	background:#D4D8D9;
+}
+
+.oder .content2 h1{
+	text-align: center;
+	color:#AD6D13;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+.oder .content2 figure{
+
+	width: 25%;
+	height: 250px;
+	float: left;
+}
+
+.oder .content2 figure img{
+
+	width: 100%;
+	height: 100%;
+}
+
+.oder .content2 figure h3,h4{
+
+	text-align: center;
+	color: #374D56;
+}
+.oder .content2 figure p{
+	text-align: center;
+	padding: 10px 40px;
+	color: gray;
+
+
+}
+
+
+/*start cuisine*/
+
+
+.cuisine{
+
+	width: 100%;
+	height: 400px;
+	background:rgba(255, 255, 255, .9);
+	margin-top: 100px;
+
+}
+
+
+.cuisine h1,p{
+	text-align: center;
+
+}
+
+.cuisine p{
+
+
+	line-height: 30px;
+}
+
+.cuisine ul{
+	width: 100px;
+	height: 20px;
+	margin: 0 auto;
+
+}
+
+.cuisine ul li{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #2A3B40;
+	float: left;
+margin-left: 10px;
+}
+
+
+.discover{
+
+	width: 100%;
+	height: 450px;
+	background:rgba(255, 255, 255, .7);
+	margin-top: 200px;
+
+}
+
+
+.discover h2{
+
+	text-align: center;
+	color: #304751;
+	font-size: 40px;
+
+}
+
+.discover .menu{
+	width: 40%;
+	height: 300px;
+	float: left;
+	margin-top: 15px;
+}
+
+.discover .menu li{
+width: 70px;
+height: 70px;
+background: #fff;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+float: left;
+}
+
+
+
+.discover .menu .icon{
+position: absolute;
+	width: 300px;
+	height: 80px;
+	float: left;
+	margin-left: 80px;
+
+}
+
+.discover .menu .icon .pragraph{
+	text-align: left;
+	margin-top: 5px;
+	line-height: 25px;
+}
+
+
+/*start pic*/
+.pic{
+
+	width: 100%;
+	height: 600px;
+	background: url(image/food8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+
+
+/*start food*/
+.food{
+
+	width: 100%;
+	height: 650px;
+	background: #D4D8D9;
+	float: left;
+}
+
+
+.food .food1{
+	width: 28%;
+	height: 470px;
+	float: left;
+	background: white;
+	margin-left: 50px;
+	overflow: hidden;
+
+
+
+}
+
+.food  h2{
+
+	text-align: center;
+	color: #304751;
+	font-size: 40px;
+
+}
+
+.food .food1 figure,img{
+	width: 100%;
+	height: 250px;
+
+}
+
+.food .food1 p{
+	text-align: left;
+	padding-left: 15px;
+}
+
+
+.food .food1 button{
+
+	width: 100px;
+	height: 35px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 5px solid orange;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: 650;
+}
+
+.food .food1 button:hover{
+border: none;
+background: orange;
+color: white;
+}
+
+/*start footer*/
+footer{
+
+	width: 100%;
+	height:350px;
+	background: #2A3B40;
+	float: left;
+}
+
+footer .coma{
+	text-align: center;
+	color: #fff;
+	font-size: 100px;
+}
+
+footer p{
+	padding: 0 300px;
+	color: white;
+}
+
+footer h4{
+text-align: center;
+color: #fff;
+}
+
+footer ul {
+	width: 350px;
+	height: 50px;
+	margin: 25px auto;
+}
+
+footer ul li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer ul li i{
+	color: white;
+	font-size: 25px;
+	color: #2A3B40;
+}
+
+
+#footer{
+
+	width: 100%;
+	height:300px;
+	background: #D4D8D9;
+	float: left;
+}
+
+#footer .about{
+	width: 30%;
+	height: 80%;
+	margin-top: 50px;
+	float: left;
+}
+
+#footer .about h1{
+
+	color: #2F312C;
+}
+
+#footer .about .one{
+	color: gray;
+	text-align: left;
+	padding:20px  20px 20px 0;
+}
+
+.list{
+
+	width: 60%;
+	height: 250px;
+	margin-top: 50px;
+	float: left;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 100px;
+
+
+}
+
+.list .list3{
+
+	height: 120px;
+	width: 150px;
+
+}
+
+.list .list3 h2{
+
+	color: #2A3B40;
+}
+
+
+.list .list3 li{
+	height: 30px;
+	font-weight: 650;
+}

@@ -1,0 +1,46 @@
+body{
+		font-family: serif;
+		background: black;
+
+}
+
+section{
+height: 10px;
+
+}
+
+h1{
+
+	font-size: 100px;
+	color: #ddd;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+	transform: translateY(-100%);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 0;
+
+}
+
+h1 span{
+
+	animation: box 1s  linear infinite;
+	display: inline-block;
+	opacity: 0;
+}
+@keyframes box {
+	0%{
+		opacity: 0;
+		transform: rotateY(-90deg);
+		filter: blur(10px);
+		color: red;
+	}
+
+	100%{
+		opacity: 1;
+		color: darkcyan;
+	}
+}

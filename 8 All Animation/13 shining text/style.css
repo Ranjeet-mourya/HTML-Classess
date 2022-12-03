@@ -1,0 +1,33 @@
+body{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #000;
+}
+
+p{
+
+background: linear-gradient(90deg, #000, #fff,#000);
+background-repeat: no-repeat;
+background-size: 80%;
+animation: shine 4s linear infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color:rgba(255,255,255,0);
+overflow: hidden;
+font-family: sans-serif;
+font-size: 2em;
+position: relative;
+	letter-spacing: 6px;
+}
+
+@keyframes shine{
+	0%{
+background-position: 500%;
+	}
+		100%{
+background-position: -500%;
+	}
+
+}

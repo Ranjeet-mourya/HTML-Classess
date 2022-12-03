@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.wrapper{
+	width: 100%;
+	height: 630px;
+	background-color: #747474;
+	float: left;
+}
+
+.wrapper .logo{
+	width: 150px;
+	height:50px;
+	margin-left: 20px;
+	margin-top: 25px;
+
+
+}
+
+.wrapper .logo img{
+	width: 100%;
+	height: auto;
+	margin-top: -50px;
+
+}
+
+.wrapper nav ul{
+	width: 50%;
+	height: 50px;
+	float: left;
+	margin-left: 250px;
+	margin-top: -30px;	
+}
+.wrapper nav ul li{
+	width: 100px;
+	height: 50px;
+	float: left;
+	list-style: none;
+
+}
+
+.wrapper nav ul li a{
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+	letter-spacing: 2px;
+
+}
+	
+.wrapper .box1{
+	width: 30%;
+	height: 450px;
+	margin-left: 6.3%;
+	float: left;
+	margin-top: 50px;
+}
+
+.wrapper .box1 h1{
+
+    
+	font-size: 120px;
+	color: white;
+	font-family: sans-serif;
+	line-height: 150px;
+	font-weight: bold;
+
+}
+
+.wrapper .box2{
+	width: 50%;
+	height: 450px;
+	margin-left: 6.3%;
+	float: left;
+	margin-top: 50px;
+}
+
+.wrapper .box2 img{
+	width:90%;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 20px;
+
+}

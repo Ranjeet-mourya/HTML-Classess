@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Battery hover</title>
+
+	<style type="text/css">
+	body{
+
+		background: hotpink;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+
+	.loder{
+
+		width: 200px;
+		height: 80px;
+		border: 10px solid white;
+		border-radius: 5px;
+		position: relative;
+	}
+
+		.loder:before{
+			position: absolute;
+			content: '';
+			top: 5px;
+			left: 3px;
+			background: white;
+			width: 10px;
+			height: 70px;
+			border-radius: 2px;
+			animation: loder 1.5s linear	 infinite;
+
+		}
+		.loder:after{
+			position: absolute;
+			content: '';
+			top: 5px;
+			left: 210px;
+			background: white;
+			width: 10px;
+			height: 70px;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+
+		}
+
+		@keyframes loder{
+
+			0%{
+				width: 0;
+			}
+
+			100%{
+				width: 90%;
+			}
+		}
+
+</style>
+</head>
+<body>
+
+	<div class="loder">
+
+
+	</div>
+
+</body>
+</html>

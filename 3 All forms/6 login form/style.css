@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding: 0;
+
+
+}
+
+.wrapper{
+
+		width: 100%;
+		height: 100vh;
+		background:url(images/hecker.jpg);
+		background-repeat: no-repeat;
+		background-size:100% 100%;
+		float: left;
+
+}
+.wrapper .owerlay{
+	width: 100%;
+	height:100vh ;
+	background-color: rgba(0,0,0,.4);
+	float: left;
+}
+
+.wrapper .owerlay .form{
+	width: 350px;
+	height: 500px;
+	margin: 35px auto;
+	background-color: black;
+	opacity: .8;
+	
+
+	 
+}
+.wrapper .owerlay .form h1{
+	text-align:center;
+	color: #fff;
+	padding-top: 45px;
+	font-family: sans-serif;
+	font-size: 33px; 
+
+
+}
+
+.wrapper .owerlay .form input{
+
+	width: 300px;
+	height: 30px;
+	margin-left:25px;
+	border-radius: 25px;
+	background-color: transparent;
+	outline: none;
+	border:none;
+	border-bottom:2px solid white;
+	position: relative; 
+	padding-left: 10px; 
+}
+
+.wrapper .owerlay .form i{
+		color: white;
+		position: absolute;
+		margin-left: 40px;
+		margin-top: 8px;
+}
+.wrapper .owerlay .form .btn{
+			color: white;
+			margin-left: 35px;
+		    font-family:sans-serif;
+}
+.wrapper .owerlay .form .btn4{
+		width: 300px;
+		height: 40px;
+		margin-left: 20px;
+		background-color: #3498DB;
+		border: none;
+		font-family: sans-serif;
+		font-size: 22px;
+		font-weight: 600;
+		color: orange;
+}
+.wrapper .owerlay .form .id{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	font-family:sans-serif;
+}
+.wrapper .owerlay .form .btn1{
+	height: 35px;
+	width: 130px;
+	margin-left:35px;	
+	background-color: #E1306C;
+	font-family: sans-serif;
+	color: white;
+	font-size: 16px;
+	outline: none;
+	border:none;
+	position: relative;
+}
+.wrapper .owerlay .form .btn3{
+	height: 35px;
+	width: 130px;
+	margin-left: 5px;
+	background-color: #4267B2;	
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	outline: none;
+	border:none;
+	position: relative;
+}
+.wrapper .owerlay .form .one{
+
+}
+.wrapper .owerlay .form  .one span{
+	color: cyan;
+	font-size: 14px;
+	font-family:sans-serif;
+
+}
+.wrapper .owerlay .form .fa-facebook{
+		color: white;
+		position: absolute;
+		z-index: 1;
+		
+
+
+
+	}
+	.wrapper .owerlay .form .fa-instagram{
+		color: white;
+		position: absolute;
+		z-index: 1;
+		margin-left:10px;
+
+
+
+	}

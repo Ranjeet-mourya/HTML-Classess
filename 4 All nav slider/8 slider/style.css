@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	width: 100%;
+}
+
+.box  header{
+
+	width: 100%;
+	height: 60px;
+	background-color:#192a56;
+	
+
+}
+.box  header .logo{
+	width:40px;
+	height: 40px;
+	margin-left: 50px;
+
+	margin-top: 10px;
+	float: left; 
+
+}
+.box  header .logo img{
+	width: 100%;
+	height: 100%;
+
+
+}
+.box  header nav{
+
+	width: 80%;
+	height: 60px;
+	background-color: #0a3d62;
+	margin: 0 auto;
+}
+.box  header nav ul{
+	width: 80%	;
+	height: 60px;
+	float: left;
+	margin-left: 20px;
+
+}
+.box header nav ul li{
+    float: left;
+	width: 120px;
+	height: 60px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.box header nav ul li:before{
+				position: absolute;
+				top: 0;	
+				left: 0;
+				content: '';
+				width: 100%;
+				height: 100%;
+				background:linear-gradient(red,yellow);
+				
+				transform: scale(0);
+
+
+}
+
+.box header nav ul li:hover:before{
+		transform: scale(1);
+		transition: .5s;
+		z-index: -1;
+}
+
+.box header nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	letter-spacing: .5px;
+	font-family: sans-serif;
+
+}
+.box header nav ul li.active{
+
+		background-color: orange;
+}
+.box header nav ul li:hover{
+	transition: .5s;
+	background-color: yellow;
+	cursor: pointer;
+}
+
+.box header nav ul li a:hover{
+		color: black;
+}
+
+/*
+close ul li a*/
+
+/*
+start icon*/
+
+.box header nav .icon{
+
+	width: 30%;
+	height: 60px;
+	float: right;
+	margin-top: -60px;
+
+}
+
+.box header nav .icon li{
+		width: 50px;
+		height: 50px;
+		
+		color: white;
+	
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin-top: 5px;
+		margin-left: 10px;
+		position: relative;
+		z-index: 1;
+
+}
+ .box header nav .icon li:before{
+ 	content: '';
+ 	position: absolute;
+ 	top: 0;	
+ 	left: 0;
+ 	height: 100%;
+ 	width: 100%;
+ 	background-color:  #e67e22;
+ 	transform:scale(0);
+ 	border-radius: 50%;
+ 	bo
+
+
+ }
+  .box header nav .icon li:hover:before{
+
+  		transition: .5s;
+  		transform: scale(1);
+  		z-index: -1;
+  }
+
+
+.box header nav .icon li i:hover{
+	color: black;
+}
+	
+/*.nav close*/
+
+
+
+/*
+start slider*/
+
+.box .slider{
+	width: 100%
+}
+.box .slider .one{
+
+	width: 100%;
+	height: 100vh;
+	background: url(images/12.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.box .slider .one .overlay{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,.6);
+	float: left;
+}
+
+.box .slider .one .overlay .content{
+	width: 650px;	
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+.box .slider .one .overlay .content h1{
+	font-family: roba;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	margin-top: 25px;
+}
+.box .slider .one .overlay .content p{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.box .slider .one .overlay .content .btn1{
+	width: 120px;
+	height:40px; 
+	border-radius: 25px;
+    background:linear-gradient(#0c2461,#e58e26);
+	margin-left: 180px;
+	margin-top: 25px;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+}
+.box .slider .one .overlay .content .btn1:hover{
+	background: transparent;
+	transition: .5s;
+	border: 3px solid white
+
+}
+
+.box .slider .one .overlay .content .btn2{
+	width: 120px;
+	height:40px; 
+	border-radius: 25px;
+	background-color: transparent;
+	margin-left: 10px;
+	margin-top: 25px;
+	outline: none;
+	cursor: pointer;
+	border: 3px solid white;
+	font-size: 16px;
+	color: white;
+}
+.box .slider .one .overlay .content .btn2:hover{
+	background: linear-gradient(90deg,#b71540,#e58e26);
+	transition: .5s;
+
+}
+

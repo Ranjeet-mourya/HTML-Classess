@@ -1,0 +1,82 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.center{
+	height: 100vh;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background: darkgoldenrod;
+}
+
+.center a{
+	text-decoration: none;
+	padding: 20px 30px;
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	background: darkcyan;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	color: white;
+	transition: .5s;
+}
+
+.center a::before,
+.center a::after,
+.center a span::before,
+.center a span::after{
+		position: absolute;
+		content: ''	;
+		height: 100%;
+		width: calc(100% / 4);
+		z-index: -1;
+		background: grey;
+		overflow: hidden;
+		transition:height .5s ease-in-out;
+
+
+}
+
+
+.center a::before{
+			left: 0;
+			top: 0;
+}
+
+
+
+.center a::after{
+			left: 75%;
+			bottom: 0;
+}
+
+.center a span::before{
+			left: 25%;
+			bottom: 0;
+}
+
+
+.center a span::after{
+			left: 50%;
+		top: 0;
+
+}
+
+.center a:hover::before,
+.center a:hover::after,
+.center a:hover span::before,
+.center a:hover span::after{
+
+
+
+	height: 0;
+
+}

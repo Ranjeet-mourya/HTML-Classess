@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100%;
+	height: 700px;
+	float: left;
+	background-color: black;
+}
+footer{
+	width: 100%;
+	height: 400px;
+	background-color: #081535;
+	margin-top: 100px;
+
+}
+
+footer .box{
+	width: 23%;
+	height: 350px;
+	margin-left: 1.5%;
+	margin-top: 50px;
+	float: left;
+}
+
+footer .box img{
+	width: 100%;
+	height: 80%;
+	opacity: .5;
+
+
+}
+
+footer .box p{
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	margin-top: -1px;
+
+}
+
+footer .box .three{
+	text-align: center;
+
+	color: white;
+	margin-top: -180px;
+
+}
+
+footer .box .one{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+ footer .box li{
+  text-align: center;
+  font-size: 22px;
+ 	color:white;
+ 	list-style: none;
+ 	margin-top: 15px;
+
+ }
+
+
+  footer .box input{
+  	width: 200px;
+  	margin-left: 20px;
+  	height: 35px;
+  	margin-top: 30px;
+  	background-color: transparent;
+  	border:1px solid white;
+
+  	padding-left: 10px;
+  }
+
+
+footer .box textarea{
+  	width: 200px;
+  	margin-left: 20px;
+  	height: 50px;
+  	color: gray;	
+  	margin-top: 25px;
+  	background-color: transparent;
+  	border:1px solid white;
+  	padding-left: 10px;
+  }
+
+
+
+footer .box button{
+  	width: 100px;
+  	margin-left: 20px;
+  	height: 40px;
+  	margin-top: 20px;
+  	background-color: blue;
+  	color: white;
+  	outline: none;
+  	border:none;
+  }
+  footer .box  .two{
+  	text-align: left;
+  	color: white;
+	margin-top: 30px;
+	margin-left: 15px;
+  }

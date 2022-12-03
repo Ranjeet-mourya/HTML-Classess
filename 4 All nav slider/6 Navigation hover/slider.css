@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.container{
+	background-color: black;
+	height: 100px;
+}
+
+.container ul li{
+	display: inline;
+	text-align: center;	
+}
+
+.container ul li a{
+	display: inline-block;
+	width: 15%;
+	padding: auto;
+	margin: 32px 0;
+
+	color: white;
+	text-decoration: none;
+
+}
+
+hr{
+
+	width: 15%;
+	height: 5px;
+	margin: -20px 0;
+	background: blue;
+	transition: .5s ease-in-out;
+	margin-left: 30px;
+
+	border:none;
+	border-radius: 10px;
+
+
+}
+
+.two:hover ~ hr{
+	margin-left: 15%;
+}
+
+.three:hover ~ hr{
+	margin-left: 30%;
+}
+					
+.four:hover ~ hr{
+	margin-left: 45%;
+}
+
+.search{
+	
+	margin-top: -100px;
+	color: white;
+	float: right;
+}

@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+}
+
+.wrapper{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.type{
+	width: 55ch;
+	white-space: nowrap;
+	border-right: 3px solid;
+	font-size: 50px;
+	color: red;
+	font-family: monospace;
+	overflow: hidden;
+	animation: box 5s steps(55, start), bor .8s step-end alternate;
+	animation-iteration-count: infinite;
+	}
+
+	@keyframes box{
+		from{
+			width: 0;
+		}
+	}
+
+	@keyframes bor{
+		50%{
+			border-color: transparent;
+		}
+	}

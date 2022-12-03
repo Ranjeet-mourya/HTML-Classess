@@ -1,0 +1,170 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-10/css/all.css");
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+	background: linear-gradient(to left,#434343,#000000);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: poppins;
+
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+width: 400px;
+height: 200px;
+justify-content: space-between;
+position: relative;
+overflow: hidden;
+
+}
+
+.card .left_container{
+
+	width: 49%;
+	height: 100%;
+	background: white;
+	flex-direction: column;
+	border: 10px;
+}
+
+
+
+.card .left_container img{
+
+	border-radius: 50%;
+		width: 150px;
+}
+
+.card .right_container{
+
+	width: 49%;
+	height: 100%;
+	background: white;
+	flex-direction: column;
+	align-items: start;
+	border: 10px;
+
+}
+
+.card .right_container p{
+
+	margin-left: 16px;
+}
+
+.card .right_container .user_name{
+	color: rgb(54, 54, 54);
+	font-weight: 700;
+
+}
+
+.card .right_container .skill{
+	font-size: .8em;
+	color: rgba(0, 0, 0, .774);
+
+}
+.btn{
+
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 30px;
+	height: 30px;
+	-webkit-appearance: none;
+	background: white;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .281);
+}
+
+.btn::before{
+	position: absolute;
+	content:'\f062';
+	top: 50%;
+	left: 50%;
+	font-weight: 700;
+	transform: translate(-50%,-50%)rotate(-90deg);
+	font-family:FontAwesome;
+
+
+
+}
+
+.btn:checked:before{
+	content: '\f00d';
+	transform: translate(-50%,-50%)rotate(0deg);
+}
+
+.slide{
+	position: absolute;
+	right: 0;
+	background: white;
+	width: 40%;
+	height: 100%;
+	align-items: start;
+	flex-direction: column;
+	transform: translate(100%);
+	border: 5px solid rgba(0, 0, 0, .116);
+	border-radius: 10px;
+	transition: all .6s;
+
+
+}
+
+
+.btn:checked ~ .slide{
+
+transform: translate(0);
+}
+
+.slide p{
+
+	font-weight: 700;
+	margin-left: 15px;
+}
+
+.slide .skill{
+
+	display: flex;
+	margin-left: 15px;
+	flex-wrap: wrap;
+}
+
+.slide .skill div{
+font-size: .8em;
+margin: 10px 15px 0 0;
+
+}
+
+
+.icon {
+margin: 15px 15px;
+
+}
+
+.icon i{
+	cursor: pointer;
+	 	color: rgb(49, 49, 49);
+	 	font-size: 1.2em;
+	 	margin-right: 15px;
+
+
+}
+
+.icon i:hover{
+
+color: rgb(87, 87, 87);
+}

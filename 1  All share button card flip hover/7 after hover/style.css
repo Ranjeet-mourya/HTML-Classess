@@ -1,0 +1,29 @@
+*{
+
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+
+		.box{
+
+			display: inline-block;
+			padding: 1rem 2rem;
+			background: #BDCC01;
+			color: #1a1a1a;
+			position: relative;			
+		}
+
+		.box:after{
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 1rem solid transparent;
+			border-right: 1rem solid transparent;
+			border-top: 1rem solid #BDCC01;
+			left: 50%;
+			bottom: -1rem;
+			transform: translate(-50%);
+		}

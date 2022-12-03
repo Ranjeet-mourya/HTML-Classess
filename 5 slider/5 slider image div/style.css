@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.wrapper{
+	width: 100%;
+	height: 650px;
+	background: #B2753F;
+	float: left;
+}
+
+.main{
+	width: 80%;
+
+}
+.wrapper .box{
+	width: 80%;
+	height: 600px;
+	background: #03151F;
+	margin: 25px 0 0 150px;
+	float: left;
+}
+
+
+.wrapper .box header{
+	width: 88.3%;
+	height: 50px;
+	margin: 20px 0 0 80px;
+	float: left;
+}
+
+header .logo{
+	height: 50px;
+	width: 100px;
+	float: left;
+}
+
+header .logo img{
+	width: 100%;
+	height: auto;
+	margin-top: -25px;
+
+}
+
+header .icon{
+	width: 150px;
+	height: 35px;
+	position: absolute;
+	left: 77%;
+}
+
+header .icon i{
+	color: #fff;
+
+	margin-left: 25px;
+}
+
+.fa-search{
+	margin:-4px 0 0 515px;
+	position: absolute;
+	color: white;
+
+}
+
+ input{
+	float: right;
+	width: 150px;
+	height: 40px;
+	margin-top: -15px;
+	background-color: transparent;
+	outline: none;
+	border-style: none;
+	font-size: 18px;
+	position: relative;
+	border-bottom: 2px solid white;
+
+
+}
+
+ input::placeholder{
+ 	color: white;
+ }
+
+article{
+	width: 45%;
+	height: 400px;
+	float: left;
+	position: absolute;
+	z-index: 5;
+	margin-top: 150px;
+	margin-left: 80px;
+
+}
+
+
+
+
+ .box-two{
+ 	width: 20%;
+ 	height: 600px;
+ 	background-color: #614931;
+ 	float: right;
+ 	margin-top: -70px;
+
+ }
+
+ article h6{
+color: white;
+font-family: tahoma;
+font-weight: normal;
+font-size: 16px;
+margin-left: 20px;
+letter-spacing: 2px;
+ }
+
+  article h4{
+letter-spacing: 3px;
+color: white;
+font-family: tahoma;
+font-weight: normal;
+font-size: 45px;
+margin-left: 20px;
+ }
+
+  article h1{
+color: white;
+font-family: tahoma;
+font-weight: bold;
+font-size: 80px;
+letter-spacing: 5px;
+margin-left: 20px;
+ }
+
+ article .box-three{
+ 	width: 450px;
+ 	height: 80px;
+ 	float: left;
+ 	background: linear-gradient(90deg,#614931 ,transparent);
+ 	
+
+ }
+
+  article .box-three p{
+  	margin-left: 20px;
+  	color: white;
+  	width: 300px;
+  	margin-top: 10px;
+  	font-family: tahoma;
+font-weight: normal;
+  }
+
+     article  button{
+     	padding: 14px 55px;
+     	margin: 20px 0 0 0;
+     	background-color: transparent;
+	outline: none;
+	border-style: none;
+	font-size: 18px;
+	border: 2px solid white;
+	color: #BA783E;
+	font-weight: bold;
+	font-size: 21px;
+	position: relative;
+     }
+
+
+     .img{
+     	width: 500px;
+     	height: 450px;
+     	position: relative;
+     	float: left;
+     	margin: 80px 0 0 362px;  
+
+     }
+
+       .img .size{
+       	width: 500px;
+     	height: 320px;
+
+       }
+  .img .size img{
+  	width: 100%;
+     	opacity:  .6;
+  	height: 100%;
+  }     
+
+   .img .arr{
+   	width: 50px;
+   	height: 10px;
+   	margin-left: 410px;
+   	margin-top: 10px;
+
+   } 
+
+
+   .img .arr img{
+   	width: 120%;
+   	height: 100%;
+   }
+
+   .img .bed{
+   	width: 80px;
+   	height: 60px;
+   	margin-left:25px;
+   	margin-top: 17px; 
+   	float: left;
+   }
+    .img .bed img{
+    	width: 100%;
+    	height: 100%;
+    }  
+
+      .img .bed p{
+      	color: white;
+      	font-size: 12px;
+      }
+
+article .fa-arrow-right{
+	margin: 40px 0 0 160px;
+	position: absolute;
+	color:#9D793F;
+
+
+}
+
+
+
+
+.box-two p{
+  	margin-left: -40px;
+  	color: white;
+  	word-spacing: 20px;
+  	transform:rotate(90deg); 
+  	width: 300px;
+  	margin-top: 300px;
+  	font-family: tahoma;
+font-weight: normal;
+  }
+
+
+.soail{
+	width: 150px;
+	height: 35px;
+	margin-left: 25px; €
+}
+
+.soail i{
+	color: #fff;
+
+	margin-left: 10px;
+}

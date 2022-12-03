@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 100%;
+	background-color: black;
+	float: left;
+
+}
+.box .form{
+	height: 750px;
+	width: 80%;
+	background: linear-gradient( 150deg,#FA8600 50%,#FEB703);
+	margin-left: 150px;
+	float: left;
+
+
+}
+
+.box .form .box1{
+	width: 280px;
+	height: 550px;
+	background-color: #FEAE01;
+	border-radius: 25px;
+	margin: 50px auto;
+	margin-left: 200px;
+	float: left;
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px,
+	  rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; 
+
+}
+.box .form .box1 h1{
+   padding-top: 20px;
+	margin-left:80px;	 
+
+	color: white;
+	font-family: sans-serif;
+}
+.box .form .box1 p{
+	text-align: center; 
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.box .form .box1 .img{
+	width: 100px;
+	height:100px;
+	background: url(image/hill.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin: 20px auto;
+
+}
+.box .form .box1 .one{
+	width: 280px;
+	height: 350px;
+	background-color: white;
+	border-radius: 25px;
+
+}
+.box .form .box1 .one h5{
+	margin:  auto;
+	text-align: center;
+	   color: gray;
+	   font-family: sans-serif;
+	   width: 220px;
+	   font-size: 12px;	
+}
+
+.box .form .box1 .one input{
+	height: 35px;
+	width: 200px;
+	margin-left: 25px;
+	padding-left: 30px;
+	border-radius:20px;
+	border:none;
+	position: relative; 
+	background-color: #FFF8E6;
+
+}
+.box .form .box1 .one i{
+	position: absolute;
+	color:gray;
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 35px;
+}
+.box .form .box1 .one span{
+	margin-left: 135px;
+	color: #FA8600;
+}
+
+.box .form .box1 .one button{
+	margin-left: 40px;
+	width: 200px;	
+	height: 40px;
+	border-radius: 10px;
+	background: linear-gradient( 90deg,#FEB703, #FA8600);
+	color: white;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 2px;
+	outline: none;
+	border: none;
+
+}
+.box .form .box1 .one .fa-arrow-right{
+	margin-left: 175px;
+	margin-top: 13px;
+}
+.box .form .box1 .one h6{
+	   text-align: center;	   
+	   color: gray;
+	   width: 250px;
+	   font-family: sans-serif;
+	   font-size: 12px;	
+	   margin-left: 10px;
+	  
+}
+/*
+.box1 close*/
+
+
+/*.box2 .start*/
+
+.box .form .box2{
+	width: 280px;
+	height: 550px;
+	background-color: #FEAE01;
+	border-radius: 25px;
+	margin: 50px auto;
+	margin-left: 150px;
+	float: left;
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px,
+	  rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; 
+
+}
+.box .form .box2 h1{
+   padding-top: 20px;
+	margin-left:80px;	 
+
+	color: white;
+	font-family: sans-serif;
+}
+.box .form .box2 p{
+	text-align: center; 
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.box .form .box2 .one{
+	width: 280px;
+	height: 470px;
+	background-color: white;
+	border-radius: 25px;
+	margin-top: 20px;
+
+}
+.box .form .box2 .one h5{
+	    margin:  auto;
+	   text-align: center;
+	   color: gray;
+	   font-family: sans-serif;
+	   width: ;
+	   font-size: 12px;	
+}
+
+
+.box .form .box2 .one input{
+	height: 35px;
+	width: 200px;
+	margin-left: 25px;
+	margin-top: 13px;
+	background-color: #FFF8E6;
+	padding-left: 30px;
+	border-radius:20px;
+	border:none;
+	position: relative; 
+
+}
+.box .form .box2 .one i{
+	position: absolute;
+	color:gray;
+	z-index: 1;
+	margin-top: 20px;
+	margin-left: 35px;
+}
+.box .form .box2 .one button{
+	margin-left: 40px;
+	width: 200px;	
+	height: 40px;
+	border-radius: 10px;
+	background: linear-gradient( 90deg,#FEB703, #FA8600);
+	color: white;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 2px;
+	outline: none;
+	border: none;
+	margin-top: 15px;
+
+}
+.box .form .box2 .one .fa-check-circle-o{
+	margin-left: 210px;
+	margin-top: 25px;
+}
+.box .form .box2 .one h6{
+	   text-align: center;	   
+	   color: gray;
+	   width: 250px;
+	   font-family: sans-serif;
+	   font-size: 12px;	
+	   margin-left: 10px;
+	  
+}
+
+.box .form .box2 .one i .fa-clock-o{
+	margin-left: 185px;
+	margin-top: 25px;
+	border:2px solid red;
+}

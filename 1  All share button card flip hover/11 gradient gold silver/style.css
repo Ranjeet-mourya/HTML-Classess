@@ -1,0 +1,55 @@
+
+.box, .boxx, .gold, .silver{
+
+	width: 150px;
+	height: 160px;
+	border-radius: 8px;
+	float: left;
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+	font-size: 25px;
+	font-family: nosifer;
+	margin-left: 20px;
+}
+
+.box{
+
+	background: conic-gradient(#d95641, #b14439, #b2453a, #b25645,
+								#d95641, #b14439, #b2453a, #b25645,
+								#d95641, #b14439, #b2453a, #b25645,
+								#d95641, #b14439, #b2453a, #b25645);
+
+}
+
+
+
+.boxx{
+
+	background: conic-gradient(#e6e9bf, #d2d5aa, #cbaea3, #d4d5ad,
+								#e6e9bf, #d2d5aa, #cbaea3, #d4d5ad,
+								#e6e9bf, #d2d5aa, #cbaea3, #d4d5ad,
+								#e6e9bf, #d2d5aa, #cbaea3, #d4d5ad);
+
+}
+
+
+.silver{
+
+	background: conic-gradient(#d7d7d7,#c3c3c3, #cccccc, #c6c6c6,
+								#d7d7d7,#c3c3c3, #cccccc, #c6c6c6,
+								#d7d7d7,#c3c3c3, #cccccc, #c6c6c6,
+								#d7d7d7,#c3c3c3, #cccccc, #c6c6c6);
+
+}
+
+
+
+.gold{
+
+	background: conic-gradient(#edc800, #e3c600, #f3cf00, #ffe800,
+								#edc800, #e3c600, #f3cf00, #ffe800,
+								#edc800, #e3c600, #f3cf00, #ffe800,
+								#edc800, #e3c600, #f3cf00, #ffe800);
+
+}

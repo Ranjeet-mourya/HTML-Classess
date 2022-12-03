@@ -1,0 +1,164 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.wrapper{
+	width: 100%;
+	background-color: black;
+}
+
+.wrapper .img{
+	width: 900px;
+	height: 700px;
+	background-image: url(image/hill.jpeg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin:0 auto;
+
+}
+
+.wrapper .img .form{
+	width: 300px;
+	height: 550px;
+	margin:50px auto;
+	background-color: #141519;
+	opacity: .9;
+	border-radius: 10px;
+	border-top: 3px solid #238983;
+	border-left: 3px solid #507831;
+	border-right: 3px solid #8E5D1E;
+	border-bottom:  3px solid #F08A9E;
+}
+.wrapper .img .form h3{
+		padding-top: 20px;
+	margin-left: 20px;
+	color: #009588;
+	font-size: 24px;
+}
+
+.wrapper .img .form p{
+	color: white;
+	font-size: 16px;
+	margin-left: 20px;
+	font-family: sans-serif;
+
+}
+.wrapper .img .form .four{
+
+		height: 25px;
+		width: 250px;
+		border-radius: 5px;
+		margin-left: 20px;
+}
+
+.wrapper .img .form .date{
+
+		height: 25px;
+		width: 100px;
+		border-radius: 5px;
+		margin-left: 20px;
+}
+
+.wrapper .img .form select{
+		height: 25px;
+		width: 250px;
+		border-radius: 5px;
+		margin-left: 20px;
+}
+
+
+
+.wrapper .img .form h6{
+	color: white;
+	font-size: 14px;
+	margin-left: 20px;
+	font-family: sans-serif;
+	
+}
+
+.wrapper .img .form button{
+
+		height: 25px;
+		width: 120px;
+		border-radius: 5px;
+		margin-left: 20px;
+		background-color: #F58C0D;
+		border:none;
+		outline: none;
+		color: white;
+
+}
+
+.wrapper .img .form ul{
+	height: 40px;
+	width: 120px;
+	margin-top: 35px;
+	margin-left: 100px;
+	float: left;
+
+}
+.wrapper .img .form ul li{
+	height: 30px;
+	width: 30px;
+	margin:0 auto;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+	border-radius: 50%;
+	margin-left: 5px;
+	border: 1px solid #3C8D82;
+		
+}
+.wrapper .img .form ul .red{
+	
+
+   box-shadow: 0 0 5px cyan;
+
+
+
+}
+.wrapper .img .form ul .cyan{
+	
+   box-shadow: 0 0 10px pink;
+
+}
+.wrapper .img .form ul .yellow{
+	
+   box-shadow: 0 0 5px blue;
+}
+
+.wrapper .img .form ul li .fa-twitter{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+		
+}
+
+.wrapper .img .form ul li .fa-instagram{
+		width: 20px;
+	height: 20px;
+	border-radius: 25px;
+	background-color: white;
+	color: orange;
+
+
+}
+
+
+.wrapper .img .form ul li .fa-facebook{
+		width: 20px;
+	height: 20px;
+	border-radius:25px;
+	background-color: black;
+	color: white;
+	
+}
+
+.wrapper .img .form ul li i{
+
+}

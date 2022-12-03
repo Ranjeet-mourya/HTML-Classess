@@ -1,0 +1,42 @@
+body{
+background: black;
+color: white;
+font-family: monospace;
+}
+
+section{
+height: 10px;
+}
+
+h1{
+	font-size: 100px;
+	top: 50%;
+	position: absolute;
+	text-align: center;
+	transform: translateY(-100%);
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+h1 span{
+animation: box 1s linear infinite;
+opacity: 0;
+display: inline-block;
+}
+
+@keyframes box{
+	0%{
+		opacity: 0;
+		filter: blur(10px);
+
+	}
+
+	100%{
+		opacity: 1;
+		color: darkgoldenrod;
+
+	}
+}

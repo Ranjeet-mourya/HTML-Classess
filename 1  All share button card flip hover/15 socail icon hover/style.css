@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: skyblue;
+}
+
+.center{
+display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.container{
+	height: 250px;
+	width: 250px;
+	background: white;
+
+}
+
+.container .icons{
+
+margin: 1.2em;	
+height: 50px;
+width: 50px;
+position: relative;
+z-index: 10;
+}
+
+
+.container .icons a{
+
+	padding: .6em .7em;
+	color: rgb(44, 44, 44);
+	backdrop-filter: blur(15px);
+	border-radius: 50px;
+	border: 2px solid white;
+	transition: color .4s;
+	margin-left: 10px;
+}
+
+.container .icons a:hover{
+
+	color: rgb(255, 255, 255);
+}
+
+
+.container .icons a::before,
+.container .icons a::after{
+
+	position: absolute;
+	content: '';
+	top: -5px;
+	left: -5px;
+	height: 100%;
+	width: 100%;
+	background: #2f80ed;
+	z-index: -1;
+	transition: clip-path .4s;
+}
+.container .icons a::after{
+top: 5px;
+left: 5px;
+ background: #56ccf2;
+	clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+}
+
+
+.container .icons a::before{
+	clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+
+}
+
+
+.container .icons a:hover::before{
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100% );
+	border-radius: 0 0 50px 0;
+
+}
+
+.container .icons a:hover::after{
+border: 50px 0 0 0;
+clip-path: polygon(0 0, 100%  0,100% 100%, 0 100%);
+
+}

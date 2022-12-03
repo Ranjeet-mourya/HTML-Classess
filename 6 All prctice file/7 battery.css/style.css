@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: chocolate;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+
+.charge{
+	position: relative;
+	width: 200px;
+	height: 100px;
+	margin: auto;
+	border: 6px solid orange;
+}
+
+
+.charge:before{
+	position: absolute;
+	content: '';
+	top: 4px;
+	left: 5px;
+	background: orange;
+	width: 10px;
+	height: 90px;
+	animation: cell 2s linear infinite;
+}
+
+@keyframes cell{
+
+	50%{
+	width: 90%;	}
+}
+	
+.charge:after{
+	position: absolute;
+	content: '';
+	top: 14px;
+	left: 200px;
+	background: orange;
+	width: 16px;
+	border-radius: 5px;
+	height: 70px;
+}

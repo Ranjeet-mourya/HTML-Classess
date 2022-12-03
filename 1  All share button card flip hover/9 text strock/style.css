@@ -1,0 +1,17 @@
+h1{
+
+	font-size: 5em;
+	color: black;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: black;
+}
+
+h2{
+	font-size: 5em;
+	color: black;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke: 1.5px black;
+
+
+}

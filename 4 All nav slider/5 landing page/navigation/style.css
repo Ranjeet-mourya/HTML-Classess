@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100%;
+
+}
+
+.wrapper .main{
+	width: 90%;
+	margin:0 auto;
+}
+
+.wrapper header{
+	width: 100%;
+	height: 50px;
+	background-color: #000;
+}
+
+.wrapper header .logo{
+	width:30px;
+	height: 30px;
+	float: left;
+	margin-left: 100px;
+}
+
+.wrapper header .logo img{
+	width: 100%;
+	height: 100%;
+	margin: 10px 0;
+}
+
+
+.wrapper header nav{
+	width: 80%;
+	height: 50px;
+	background-color: orange;
+	margin:0 auto;
+}
+
+.wrapper header nav ul{
+	list-style: none;
+	width: 60%;
+	height: 50px;
+	margin-left:10%;
+	float: left;
+}
+
+.wrapper header nav ul li{
+	float: left;
+	width: 140px;
+	height: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 15px;
+	position: relative;
+	z-index: 1;
+}
+
+.wrapper header nav ul li.active{
+	background:linear-gradient(yellow,green);
+}
+.wrapper header nav ul li:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:linear-gradient(yellow,green);
+	z-index: -1;
+	transform: scale(0);
+}
+
+.wrapper header nav ul li:hover:before{
+	transform: scale(1);
+	transition: .5s;
+}
+.wrapper header nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+
+}
+
+.wrapper header nav ul li a:hover{
+	color: #000;
+	transition: .3s;
+}
+
+
+.wrapper header nav .social-icon{
+	width: 350px;
+	height: 50px;
+	float: right;
+
+}
+
+.wrapper header nav .social-icon li{
+	width: 40px;
+	height: 40px;
+	list-style: none;
+	float: left;
+	border-radius: 50%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 3px;
+	position: relative;
+	z-index: 1;
+}
+
+.wrapper header nav .social-icon li:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(yellow,green);
+	border-radius: 50%;
+	z-index: -1;
+	transform: scale(0);
+	border:2px double yellow;
+}
+
+.wrapper header nav .social-icon li:hover:before{
+	transform: scale(1);
+	transition: .3s;
+}
+
+.wrapper header nav .social-icon li:hover i{
+	color: #fff;
+}
+
+.wrapper header nav .social-icon li.active{
+	background: linear-gradient(yellow,green);
+}

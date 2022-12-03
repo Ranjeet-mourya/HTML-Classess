@@ -1,0 +1,133 @@
+ *{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+
+
+body{
+font-family: tahoma;
+
+}
+
+.sidewar{
+position: fixed;
+left: -250px;
+transition: all .4s ease;
+width: 250px;
+height: 100%;
+background: #042331;
+}
+
+
+.sidewar header{
+font-size: 22px;
+color: white;
+text-align: center;
+line-height: 70px;
+
+
+user-select: none;
+}
+
+.sidewar ul a{
+height: 100%;
+width: 100%;
+display: block;
+line-height: 65px;
+font-size: 20px;
+color: white;
+padding-left: 40px;
+box-sizing: border-box;
+border-top: 1px solid rgba(255, 255, 255, .1);
+border-bottom: 1px solid black;
+transition: .4s;
+
+}
+
+.sidewar ul li:hover a{
+padding-left: 50px;
+
+}
+
+.sidewar ul a i{
+
+margin-right: 16px;
+
+}
+
+#check{
+display: none;
+
+}
+
+label #btn,
+
+label #cancel
+{
+ position: absolute;
+ cursor: pointer;
+ background: #423331;
+ border-radius: 3px;
+
+
+}
+
+label #btn{
+
+left: 40px;
+top: 25px;
+font-size: 25px;
+color: white;
+padding: 6px 12px;
+transition: all .5s;
+
+
+}
+label #cancel{
+
+z-index: 1111;
+left: -195px;
+top: 17px;
+font-size: 30px;
+color: #0a5275;
+padding: 4px 9px;
+transition: all .5s ease;
+}
+
+#check:checked ~ .sidewar{
+left: 0;
+
+}
+
+#check:checked ~ label #btn{
+left: 250px;
+opacity: 0;
+pointer-events: none;
+
+}
+
+#check:checked ~ label #cancel{
+left: 195px;
+
+}
+
+section{
+
+	background: url(img/slider.jpg) no-repeat ;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	transition:all .5s ease;
+
+
+
+
+}
+
+#check:checked ~ section{
+
+margin-left: 250px;
+
+}

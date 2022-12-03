@@ -1,0 +1,295 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.main{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.wrapper nav{
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(black,gray);
+}
+
+.wrapper nav .logo{
+	width: 80px;
+	height: 50px;
+	float: left;
+
+
+}
+
+.wrapper nav .logo img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.wrapper nav ul{
+	width: 70%;
+	height: 50px;
+	float: right;
+
+}
+.wrapper nav ul li{
+	float: left;
+	width: 120px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper nav ul li a{
+	font-size: 18px;
+	color: white;
+}
+
+.wrapper nav ul li i{
+	font-size: 18px;
+	color: white;
+}
+
+
+
+/*start slider*/
+
+.slider{
+
+	width: 100%;
+	height: 500px;
+	background-image: url(images/slider.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+
+.slider .text{
+width: 500px;
+height: 300px;
+margin: 80px 100px;
+
+}
+
+.slider .text h1{
+	font-size: 80px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.slider .text p{
+	
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.slider .text button{
+	padding: 10px 25px;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 5px;
+	font-size: 20px;
+color: white;
+}
+
+	.box{
+
+		background: #D8D8D8;
+		width: 100%;
+		height: 250px;
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, .8);
+		float: left;
+}
+
+.box .box1{
+	width: 30%;
+	height: 180px;
+	margin-top: 20px;
+	margin-left: 3%;
+	border: 1px solid gray;
+	float: left;
+}
+
+.box .box1 img{
+	width: 95%;
+	height: 95%;
+}
+/*start car*/
+	.car{
+
+		width: 100%;
+		height: 450px;
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, .8);
+		float: left;
+}
+
+.car h1{
+text-align: center;
+color: black;
+border: 4px dotted black;
+width: 350px;
+margin: 80px auto;
+}
+
+.car .car1{
+	width: 30%;
+	height: 180px;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+}
+
+.car .car1 img{
+	width: 95%;
+	height: 95%;
+}
+
+footer{
+
+	width: 100%;
+	height: 450px;
+	background: #000000;
+	float: left;
+}
+
+
+footer header{
+	width: 100%;
+	height: 50px;
+background: #242424;
+
+}
+footer ul{
+width: 50%;
+height: 50px;
+float: left;
+
+}
+
+
+footer ul li{
+	width: 120px;
+	height:50px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer ul li a{
+font-size: 20px;
+color: white;
+}
+
+
+
+footer .btn1{
+	padding: 12px 20px;
+	background: yellow;
+	font-size: 20px;
+		color: white;
+		float: right;
+		border: none;
+		outline: none;
+		color: black;
+
+}
+
+
+footer .btn2{
+	padding: 12px 40px;
+	background: white;
+	font-size: 20px;
+		color: white;
+		float: right;
+		border: 2px solid black;
+		color: dimgray;
+
+}
+footer .btn2 i{
+color: black;
+}
+
+
+footer .list{
+	width: 15%;
+	height: 300px;
+	float: left;
+margin-left: 3.5%;
+margin-top: 3%;
+
+}
+
+footer .list h2{
+	color: white;
+}
+
+
+footer  li{
+	width: 100%;
+	height:50px;
+	float: left;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+footer .list li a{
+font-size: 18px;
+color: white;
+}
+.copy{
+width: 100%;
+height: 50px;
+background: #000000;
+float: left;
+}
+
+
+.copy p{
+	color: white;
+	padding-top: 20px;
+	border-top: 2px solid white;
+
+}
+
+footer .oder{
+	width: 100%;
+	height: 70px;
+	margin-top: 300px auto;
+
+}
+
+footer .oder li{
+	width: 35px ;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto;
+	background: white;
+	margin-left: 20px;
+	border-radius: 5px;
+
+}
+
+footer .oder li i{
+	color: black;
+}
+
+
+footer .oder h3{
+text-align: center;
+color: white;
+margin-top: 50px;
+}

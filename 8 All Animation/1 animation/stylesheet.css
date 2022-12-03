@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.ease{
+	width: 100px;
+	height: 50px;
+	background: darkblue;
+	animation-name: ease;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ease{
+	0%{
+
+	}
+	100%{
+		width: 1000px;
+	}
+}
+
+
+.ease-in{
+	width: 100px;
+	height: 50px;
+	background: darkgoldenrod;
+	animation-name: ease-in;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ease-in{
+	0%{
+
+	}
+	100%{
+		width: 1000px;
+	}
+}
+
+.ease-in-out{
+	width: 100px;
+	height: 50px;
+	background: darkcyan;
+	animation-name: ease-in-out;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ease-in-out{
+	0%{
+
+	}
+	100%{
+		width: 1000px;
+	}
+}
+
+.ease-out{
+	width: 100px;
+	height: 50px;
+	background: fuchsia;
+	animation-name: ease-out;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes ease-out{
+	0%{
+
+	}
+	100%{
+		width: 1000px;
+	}
+}
+
+.steps{
+	width: 100px;
+	height: 50px;
+	background: darkgray;
+	animation-name:steps;
+	animation-duration: 2s;
+	animation-timing-function:steps(5,start);
+	animation-iteration-count: infinite;
+}
+
+@keyframes steps{
+	0%{
+
+	}
+	100%{
+		width: 1000px;
+	}
+}
+
+.step-start{
+	width: 100px;
+	height: 50px;
+	background: yellowgreen;
+	animation-name: step-start;
+	animation-duration: 2s;
+	animation-timing-function: step-start;
+	animation-iteration-count: infinite;
+}
+
+@keyframes step-start{
+	0%{
+
+	}
+	100%{
+		width: 1000px;
+	}
+}
+
+
+
+
+.step-end{
+	width: 100px;
+	height: 50px;
+	background: saddlebrown;
+	animation-name: step-end;
+	animation-duration: 2s;
+	animation-timing-function: step-end;
+	animation-iteration-count: infinite;
+}
+
+@keyframes step-end{
+	0%{
+
+	}
+	100%{
+		width: 1000px;
+	}
+}
+
+
+.linear{
+	width: 100px;
+	height: 50px;
+	background: dodgerblue;
+	animation-name: linear;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-play-state: paused;
+	animation-iteration-count: infinite;
+}
+
+.linear:hover{
+
+	animation-play-state:running;
+	cursor: zoom-in;
+
+}
+
+@keyframes linear{
+	0%{
+
+	}
+	100%{
+		width: 1000px;
+	}
+}
+
+
+
+.cubic-bezier{
+	width: 100px;
+	height: 50px;
+	background: red;
+	animation-name: cubic-bezier;
+	animation-duration: 2s;
+	animation-play-state: paused;
+	
+	animation-timing-function: cubic-bezier;
+	animation-iteration-count: infinite;
+}
+
+
+.cubic-bezier:hover{
+animation-play-state: running;
+cursor: zoom-out;
+}
+
+
+@keyframes cubic-bezier{
+	0%{
+
+	}
+	100%{
+		width: 1000px;
+	}
+}

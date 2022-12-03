@@ -1,0 +1,762 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+
+	cursor: pointer;
+	font-family: roboto;
+	font-weight: normal;
+	background: skyblue;
+}
+
+.wrapper{
+
+	width: 100%;
+
+}
+
+.wrapper h1,p{
+	text-align: center;
+}
+
+
+
+
+.one{
+
+	width: 300px;
+	height: 400px;
+	margin: 40px 30px;
+	background-image: url(images/cart1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	border-bottom-left-radius: .1px;
+	border-bottom-right-radius: .1px;
+	float: left;
+	overflow: hidden;
+}
+
+.one ul{
+	list-style: none;
+	width: 50px;
+	height: 100px;
+	margin-top: 55%;
+	float: right;
+}
+
+.one ul .list, .list-item{
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius: 50%;
+	margin-top: 10px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5),
+				2px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+.one:hover ul .list{
+
+	margin-left: -10px;
+	transition: .5s;
+}
+.one:hover ul .list-item{
+
+	margin-left: -10px;
+	transition: .5s;
+	transition-delay: .5s;
+}
+.one:hover ul .list:hover,.list-item:hover{
+	background:#FF7315 ;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.one h1{
+	color: white;
+	background: black;
+	text-align: center;
+	margin-top: 150%;
+	height: 50px;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.one:hover h1{
+
+	margin-top: 350px;
+	transition: .5s;
+}
+
+.one:hover h1:hover{
+background: #FF7315;
+}
+.one:hover{
+	
+	width: 300px;
+	height: 400px;
+	background-image: url(images/cart4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+
+
+
+/*start two hover image*/
+
+.two{
+
+	width: 300px;
+	height: 400px;
+	margin: 40px 0px;
+	background-image: url(images/shop-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	border-bottom-left-radius: .1px;
+	border-bottom-right-radius: .1px;
+	float: left;
+	overflow: hidden;
+}
+
+.two:hover{
+	
+	width: 300px;
+	height: 400px;
+	background-image: url(images/shop-11.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.two ul{
+	list-style: none;
+	width: 50px;
+	height: 100px;
+	margin-top: 55%;
+	float: right;
+}
+
+.two ul .list, .list-item{
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius: 50%;
+	margin-top: 10px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5),
+				2px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+.two:hover ul .list{
+
+	margin-left: -10px;
+	transition: .5s;
+}
+.two:hover ul .list-item{
+
+	margin-left: -10px;
+	transition: .5s;
+	transition-delay: .5s;
+}
+.two:hover ul .list:hover,.list-item:hover{
+	background:#FF7315 ;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.two h1{
+	color: white;
+	background: black;
+	text-align: center;
+	margin-top: 150%;
+	height: 50px;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.two:hover h1{
+
+	margin-top: 350px;
+	transition: .5s;
+}
+
+.two:hover h1:hover{
+background: #FF7315;
+}
+
+
+/*start three hover image*/
+
+.three{
+
+	width: 300px;
+	height: 400px;
+	margin: 40px 	30px ;
+	background-image: url(images/shop-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	border-bottom-left-radius: .1px;
+	border-bottom-right-radius: .1px;
+	float: left;
+	overflow: hidden;
+}
+
+.three:hover{
+	
+	width: 300px;
+	height: 400px;
+	background-image: url(images/shop-22.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.three ul{
+	list-style: none;
+	width: 50px;
+	height: 100px;
+	margin-top: 55%;
+	float: right;
+}
+
+.three ul .list, .list-item{
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius: 50%;
+	margin-top: 10px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5),
+				2px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+.three:hover ul .list{
+
+	margin-left: -10px;
+	transition: .5s;
+}
+.three:hover ul .list-item{
+
+	margin-left: -10px;
+	transition: .5s;
+	transition-delay: .5s;
+}
+.three:hover ul .list:hover,.list-item:hover{
+	background:#FF7315 ;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.three h1{
+	color: white;
+	background: black;
+	text-align: center;
+	margin-top: 150%;
+	height: 50px;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.three:hover h1{
+
+	margin-top: 350px;
+	transition: .5s;
+}
+
+.three:hover h1:hover{
+background: #FF7315;
+}
+
+
+/*start four hover image*/
+
+.four{
+
+	width: 300px;
+	height: 400px;
+	margin:40px 0px;
+	background-image: url(images/shop-7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	border-bottom-left-radius: .1px;
+	border-bottom-right-radius: .1px;
+	float: left;
+	overflow: hidden;
+}
+
+.four:hover{
+	
+	width: 300px;
+	height: 400px;
+	background-image: url(images/shop-77.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.four ul{
+	list-style: none;
+	width: 50px;
+	height: 100px;
+	margin-top: 55%;
+	float: right;
+}
+
+.four ul .list, .list-item{
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius: 50%;
+	margin-top: 10px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5),
+				2px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+.four:hover ul .list{
+
+	margin-left: -10px;
+	transition: .5s;
+}
+.four:hover ul .list-item{
+
+	margin-left: -10px;
+	transition: .5s;
+	transition-delay: .5s;
+}
+.four:hover ul .list:hover,.list-item:hover{
+	background:#FF7315 ;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.four h1{
+	color: white;
+	background: black;
+	text-align: center;
+	margin-top: 150%;
+	height: 50px;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.four:hover h1{
+
+	margin-top: 350px;
+	transition: .5s;
+}
+
+.four:hover h1:hover{
+background: #FF7315;
+}
+
+
+
+/*start five hover image*/
+
+.five{
+
+	width: 300px;
+	height: 400px;
+	margin:30px ;
+	background-image: url(images/shop-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	border-bottom-left-radius: .1px;
+	border-bottom-right-radius: .1px;
+	float: left;
+	overflow: hidden;
+}
+
+.five:hover{
+	
+	width: 300px;
+	height: 400px;
+	background-image: url(images/shop-33.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.five ul{
+	list-style: none;
+	width: 50px;
+	height: 100px;
+	margin-top: 55%;
+	float: right;
+}
+
+.five ul .list, .list-item{
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius: 50%;
+	margin-top: 10px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5),
+				2px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+.five:hover ul .list{
+
+	margin-left: -10px;
+	transition: .5s;
+}
+.five:hover ul .list-item{
+
+	margin-left: -10px;
+	transition: .5s;
+	transition-delay: .5s;
+}
+.five:hover ul .list:hover,.list-item:hover{
+	background:#FF7315 ;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.five h1{
+	color: white;
+	background: black;
+	text-align: center;
+	margin-top: 150%;
+	height: 50px;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.five:hover h1{
+
+	margin-top: 350px;
+	transition: .5s;
+}
+
+.five:hover h1:hover{
+background: #FF7315;
+}
+
+/*start six hover image*/
+
+.six{
+
+	width: 300px;
+	height: 400px;
+	margin:30px 0px ;
+	background-image: url(images/shop-4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	border-bottom-left-radius: .1px;
+	border-bottom-right-radius: .1px;
+	float: left;
+	overflow: hidden;
+}
+
+.six:hover{
+	
+	width: 300px;
+	height: 400px;
+	background-image: url(images/shop-44.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.six ul{
+	list-style: none;
+	width: 50px;
+	height: 100px;
+	margin-top: 55%;
+	float: right;
+}
+
+.six ul .list, .list-item{
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius: 50%;
+	margin-top: 10px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5),
+				2px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+.six:hover ul .list{
+
+	margin-left: -10px;
+	transition: .5s;
+}
+.six:hover ul .list-item{
+
+	margin-left: -10px;
+	transition: .5s;
+	transition-delay: .5s;
+}
+.six:hover ul .list:hover,.list-item:hover{
+	background:#FF7315 ;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.six h1{
+	color: white;
+	background: black;
+	text-align: center;
+	margin-top: 150%;
+	height: 50px;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.six:hover h1{
+
+	margin-top: 350px;
+	transition: .5s;
+}
+
+.six:hover h1:hover{
+background: #FF7315;
+}
+
+/*start seven hover image*/
+
+.seven{
+
+	width: 300px;
+	height: 400px;
+	margin:30px ;
+	background-image: url(images/shop-8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	border-bottom-left-radius: .1px;
+	border-bottom-right-radius: .1px;
+	float: left;
+	overflow: hidden;
+}
+
+.seven:hover{
+	
+	width: 300px;
+	height: 400px;
+	background-image: url(images/shop-88.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.seven ul{
+	list-style: none;
+	width: 50px;
+	height: 100px;
+	margin-top: 55%;
+	float: right;
+}
+
+.seven ul .list, .list-item{
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius: 50%;
+	margin-top: 10px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5),
+				2px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+.seven:hover ul .list{
+
+	margin-left: -10px;
+	transition: .5s;
+}
+.seven:hover ul .list-item{
+
+	margin-left: -10px;
+	transition: .5s;
+	transition-delay: .5s;
+}
+.seven:hover ul .list:hover,.list-item:hover{
+	background:#FF7315 ;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.seven h1{
+	color: white;
+	background: black;
+	text-align: center;
+	margin-top: 150%;
+	height: 50px;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.seven:hover h1{
+
+	margin-top: 350px;
+	transition: .5s;
+}
+
+.seven:hover h1:hover{
+background: #FF7315;
+}
+
+
+/*start eight hover image*/
+
+.eight{
+
+	width: 300px;
+	height: 400px;
+	margin:30px 0 ;
+	background-image: url(images/shop-6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	border-bottom-left-radius: .1px;
+	border-bottom-right-radius: .1px;
+	float: left;
+	overflow: hidden;
+}
+
+.eight:hover{
+	
+	width: 300px;
+	height: 400px;
+	background-image: url(images/shop-66
+		.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.eight ul{
+	list-style: none;
+	width: 50px;
+	height: 100px;
+	margin-top: 55%;
+	float: right;
+}
+
+.eight ul .list, .list-item{
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius: 50%;
+	margin-top: 10px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5),
+				2px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+.eight:hover ul .list{
+
+	margin-left: -10px;
+	transition: .5s;
+}
+.eight:hover ul .list-item{
+
+	margin-left: -10px;
+	transition: .5s;
+	transition-delay: .5s;
+}
+.eight:hover ul .list:hover,.list-item:hover{
+	background:#FF7315 ;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.eight h1{
+	color: white;
+	background: black;
+	text-align: center;
+	margin-top: 150%;
+	height: 50px;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.eight:hover h1{
+
+	margin-top: 350px;
+	transition: .5s;
+}
+
+.eight:hover h1:hover{
+background: #FF7315;
+}

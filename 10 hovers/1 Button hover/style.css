@@ -1,0 +1,94 @@
+body{
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: skyblue;
+}
+
+.button{
+
+	width: 100px;
+	height: 50px;
+	background-color: transparent;
+	outline: none;
+	border: none;
+}
+	
+.button.effect1{
+	color: lightblue;
+
+}
+
+.button.effect1.effect1::after,
+.button.effect1.effect1::before{
+
+	content: "";
+	display: block;
+	position: absolute;
+	height: 20%;
+	width: 20%;
+	border: solid 2px;
+	transition: all .6s ease;
+	border-radius: 2px;
+}
+
+.button.effect1.effect1::after{
+	bottom: 0;
+	right: 0;
+	border-top-color: transparent ;
+	border-left-color: transparent ;
+	border-bottom-color: lightblue ;
+	border-right-color: lightblue ;
+}
+
+.button.effect1.effect1::before{
+	top: 0;
+	left: 0;
+	border-bottom-color: transparent ;
+	border-right-color: transparent ;
+	border-top-color: lightblue ;
+	border-left-color: lightblue ;
+}
+
+
+.button.effect1.effect1:hover:after,
+.button.effect1.effect1:hover:before{
+
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+/*Start button effect two*/
+
+
+.button.effect2{
+
+	color: lightcoral;
+}
+
+.button.effect2.effect2::after,
+.button.effect2.effect2::before{
+
+	content: '';
+	position: 	absolute;
+	display: block;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+
+	background-color: lightcoral;
+	transition: all .3s ease;
+	transform: scale(.85);
+}
+.button.effect2.effect2:hover:before{
+	transform: scale(1);
+	top: 0;
+}
+.button.effect2.effect2:hover:after{
+	transform: scale(1);
+}

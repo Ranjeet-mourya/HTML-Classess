@@ -1,0 +1,128 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.wrapper{
+	width: 100%;
+	height: 250px;
+	border:1px solid red;
+    background-color: black;
+    position: relative;
+
+	
+}
+
+.wrapper .one{
+	width: 250px;
+	height: 250px;
+		background-color: yellow;
+	float: left;
+	position: relative;
+	z-index: 1;
+
+}
+
+.wrapper .one:before{
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	background-color: red;
+	transform: scale(0);
+	z-index: -1;
+	cursor: pointer;
+}
+
+.wrapper :hover.one:before{
+	transform: scale(1);
+	transition: .5s;
+
+}
+
+.wrapper .two{
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-color: yellow;
+	position: relative;
+	z-index: 1;
+	margin-left: 5px;
+
+}
+
+.wrapper .two:before{
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	background-color: green;
+	transform: scale(1);
+	z-index: -1;
+	cursor: pointer;
+}
+
+.wrapper :hover.two:before{
+	transform: scale(0);
+	transition: .5s;
+
+}
+
+.wrapper .three{
+	height: 250px;
+	width: 250px;
+	background-color: red;
+	position: relative;
+	float: left;
+	margin-left: 5px;
+	overflow: hidden;
+	z-index: 1;
+	
+}
+
+.wrapper .three:before{
+	position: absolute;
+	z-index: -1;
+	
+	content: '';
+	height: 100%;
+	width: 100%;
+	background:linear-gradient(red,yellow);
+	transform: scale(0) skew(360deg);
+	cursor: pointer;
+}
+.wrapper :hover.three:before{
+		transform: scale(1) skew(0);
+		transition: .5s;
+
+}
+
+.wrapper .five{
+	height: 250px;
+	width: 250px;
+	background-color: purple;
+	position: relative;
+	float: left;
+	margin-left: 5px;
+	overflow: hidden;
+	z-index: 1;
+	border:1px solid cyan;
+	
+}
+
+.wrapper .five:before{
+	position: absolute;
+	z-index: -1;
+	
+	content: '';
+	height: 100%;
+	width: 100%;
+	background:linear-gradient(red,purple);
+	transform: scale(10) skew(360deg);
+	cursor: pointer;
+}
+
+.wrapper :hover.five:before{
+		transform: scale(0) skew(0);
+		transition: .5s;
+
+}

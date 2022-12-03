@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+	height: 100vh;
+	background: linear-gradient(to right,blue 10%,skyblue);
+	background-repeat: no-repeat;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.card{
+	width: 500px;
+	height: 200px;
+	justify-content: space-between;
+	position: relative;
+	overflow: hidden;
+}
+
+.card .left{
+	width: 49%;
+	height: 100%;
+	background: white;
+	flex-direction: column;
+
+}
+
+.card .left img{
+	width: 100px;
+	border-radius: 50%;
+}
+
+
+.card .right{
+	width: 49%;
+	height: 100%;
+	background: white;
+	align-items: start;
+}

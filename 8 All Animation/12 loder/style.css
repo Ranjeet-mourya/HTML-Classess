@@ -1,0 +1,35 @@
+body{
+
+margin: 0;
+padding: 0;
+background: #191970;
+}
+
+.loder{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 8px solid rgba(255, 255, 255, .10);
+	border-top: 8px solid	#fff;
+	animation: loder 1.5s linear infinite;
+}
+
+@keyframes loder{
+
+	0%{
+		transform: rotate(0deg);
+
+	}
+
+
+	100%{
+		transform: rotate(360deg);
+
+	}
+}
+
+
+

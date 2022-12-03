@@ -1,0 +1,526 @@
+@media (max-width:768px){
+
+	
+
+
+	/*header*/
+header{
+	width: 100%;
+	height: 100px;
+	background: #1A1A1A;
+	position: fixed;
+	margin-top: 0;
+}
+
+
+header .logo{
+	width: 250px;
+	height: 40px;
+	float: none;
+	margin-top: 30px;
+
+
+
+}
+
+header .logo img{
+	width: 80%;
+	height: 40px;
+}
+.navbar{
+	width: 100%;
+	height:600px;
+	background: rgba(0, 0, 0, .8);
+	margin-top: 70px;
+	position: absolute;
+	left:-100%;
+	transition: .4s ease;
+
+}
+
+.navbar.show{
+left: 0;
+
+}
+
+.ul{
+	width: 200px;
+	height: 250px;
+	margin-top: 120px;
+	margin-left: 150px;
+}
+
+ul li{
+	width: 100%;
+	height: 50px;
+	display: block;
+	float: none;
+	text-align: center;
+
+}
+
+header .icon{
+	top: 30px;
+	right: 0px;
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	
+}
+ul li .fa-search{
+	display: none;
+}
+
+
+
+/*start slider*/
+
+.slider{
+	width: 100%;
+	height:980px;
+	background: #1A1A1A;
+	margin-top: -10px;
+	float: left;
+	position: relative;
+	margin-top: 50px;
+}
+
+.article-1,.aside-1{
+	width: 100%;
+	height: 480px;
+				
+}
+
+
+
+.article-1 .book{
+	width: 105%;
+	height: 130px;
+	background: #F8CA11;
+	margin-left: -10px;
+}
+
+.article-1 .book h1 .span{
+	color: white;
+	font-size: 40px;
+}
+.article-1 .book h1{
+	text-align: center;
+	color: #000;
+	padding: 0 10px;
+	font-size: 30px;
+}
+
+.article-1 .box1{
+	width: 100%;
+	height: 100%;
+	margin-left: 40px;
+	margin-top: 100px;
+}
+
+.article-1 .box1 img{
+	width: 90%;
+	height: 90%;
+}
+/*article end*/
+
+/*aside start*/
+
+.aside-1 h1{
+	color: white;
+	padding: 20px;
+	font-size: 18px;
+	margin-top: 35px;
+}
+.aside-1 form{
+	width: 100%;
+	height: 320px;
+	margin-top: 20px;
+	background: #fff;
+}
+
+.aside-1 form h1{
+	color: black;
+	font-weight: normal;
+	font-size: 22px;
+}
+
+.aside-1 form input{
+	width: 85%;
+	margin-left: 20px;
+	height: 35px;
+	margin-top: 20px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-size: 16px;
+	background: #E1E1E1;
+	border: none;
+	outline: none;
+	border-radius: 5px ;
+}
+
+
+.aside-1 form .btn{
+	padding: 12px 45px;
+	background: #1A1A1A;
+	border-radius: 8px;
+	margin-left: 54%;
+	margin-top: 25px;
+	outline: none;
+	border: none;
+	font-size: 22px;
+	color: white;
+}
+
+.aside-1 form .btn:hover{
+	background: #F8CA11;
+	color: black;
+
+}
+
+
+/**start taxi*/
+
+.taxi{
+	width: 100%;
+	height: 1600px;
+	background: #161C1E;
+	float: left;
+	margin-top: 50px;
+
+}
+
+.taxi h1{
+	text-align: center;
+	font-weight: bold;
+	color: #F8CA11;
+	font-size:50px;
+
+}
+.taxi h1 span{
+	color: white;
+}
+
+
+.taxi .car1{
+	width: 100%;
+	height: 450px;
+	background: #fff;
+	float: none;
+	margin-left: 0;
+	margin-top: 70px;
+}
+
+.taxi .car1 #one{
+	width: 70px;
+	height: 70px;
+	background: #F8CA11;
+	border-radius: 50%;
+	margin: 0 auto;
+	
+}
+
+.taxi .car1 .circle h1{
+	color: #fff;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.taxi .car1 h2{
+	color: #000;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+.taxi .car1 p{
+	color: gray;
+	padding: 0 50px;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 25px;
+	font-size: 20px;
+}
+
+.taxi .car1 .car{
+
+	width: 400px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.taxi .car1 .car img{
+	width: 80%;
+	height: 80%;
+}
+
+
+/*content start*/
+.content{
+	width: 100%;
+	height: 1200px;
+	margin-top: 50px;
+	float: left;
+}
+
+.content .heading{
+
+	color: #F4DB31;
+	text-align: center;
+	font-size: 36px;
+	font-weight: normal;
+}
+.content h1 span{
+color: #000;
+}
+
+hr{
+	width: 450px;
+	margin: 0 auto;
+	color: black;
+}
+
+
+/*article start*/
+
+
+.article-2{
+				width: 100%;
+				height: 350px;
+				float: none;
+}
+
+.aside-2{
+				width: 80%;
+				height: 350px;
+				float: none;
+
+}
+
+.aside-2 img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.article-2 h1{
+	color: black;
+	font-size: 25px;
+
+}
+
+.article-2 .pera{
+	
+	color: gray;
+	line-height: 25px;
+	left: 0;
+	text-align: justify;
+	font-weight: normal
+
+}
+
+.article-2 .btn1{
+	padding: 15px 65px;
+	background: #F8CA11;
+	outline: none;
+	border: none;
+	font-size: 22px;
+	color: #fff;
+}
+
+.article-2 .btn1:hover{
+	background: black;
+	cursor: pointer;
+}
+
+
+/*book-now start*/
+.book-now{
+	width: 100%;
+	height: 600px;
+	margin-top: 0px;
+	float: none;
+	text-align: right;
+}
+
+/*article-3 start*/
+
+
+.article-3{
+				width: 100%;
+				height: 350px;
+				float: none;
+}
+
+.aside-3{
+				width: 80%;
+				height: 350px;
+				float: none;
+				margin-top: 35px;
+
+}
+
+.aside-3 img{
+	width: 100%;
+	height:80%;
+}
+
+
+
+.article-3 h1{
+	color: black;
+	font-size: 25px;
+	text-align: right;
+
+}
+
+.article-3 .pera{
+	
+	color: gray;
+	line-height: 25px;
+	left: 0;
+	text-align: justify;
+
+	font-weight: normal
+
+}
+
+.article-3 .btn2{
+	width: 200px;
+	padding: 15px;
+	background: #F8CA11;
+	outline: none;
+	border: none;
+	font-size: 22px;
+	color: #fff;
+	margin-left: 200px;
+}
+
+.article-3 .btn1:hover{
+	background: black;
+	cursor: pointer;
+}
+
+/*article-4 start*/
+
+
+.article-4{
+				width: 100%;
+				height: 350px;
+				float: none;
+}
+
+.aside-4{
+				width: 80%;
+				height: 350px;
+				float: none;
+				margin-top: -20px;
+
+}
+
+.aside-4 img{
+	width: 100%;
+	height:80%;
+}
+
+
+
+.article-4 h1{
+	color: black;
+	font-size: 25px;
+	text-align: left;
+
+}
+
+.article-4 .pera{
+	
+	color: gray;
+	line-height: 25px;
+	left: 0;
+	text-align: justify;
+
+	font-weight: normal
+
+}
+
+.article-4 .btn1{
+	width: 200px;
+	padding: 15px;
+	background: #F8CA11;
+	outline: none;
+	border: none;
+	font-size: 22px;
+	color: #fff;
+	margin-left: 0px;
+}
+
+.article-4 .btn1:hover{
+	background: black;
+	cursor: pointer;
+}
+
+/*article-5 start*/
+
+
+.article-5{
+				width: 100%;
+				height: 350px;
+				float: none;
+}
+
+.aside-5{
+				width: 80%;
+				height: 350px;
+				float: none;
+				margin-top: -20px;
+
+}
+
+.aside-5 img{
+	width: 100%;
+	height:80%;
+}
+
+
+
+.article-5 h1{
+	color: black;
+	font-size: 25px;
+	text-align: left;
+
+}
+
+.article-5 .pera{
+	
+	color: gray;
+	line-height: 25px;
+	left: 0;
+	text-align: justify;
+
+	font-weight: normal
+
+}
+
+.article-5 .btn1{
+	width: 200px;
+	padding: 15px;
+	background: #F8CA11;
+	outline: none;
+	border: none;
+	font-size: 22px;
+	color: #fff;
+	margin-left: 0px;
+}
+
+.article-5 .btn1:hover{
+	background: black;
+	cursor: pointer;
+}
+
+
+
+
+
+}

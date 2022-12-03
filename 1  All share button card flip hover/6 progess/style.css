@@ -1,0 +1,351 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.box{
+	width:500px;
+	height:450px;
+	background: cyan;
+	float: left;
+	position: absolute;
+	top: 50%;
+	overflow: hidden;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.box .items{
+width: 80%;
+height: 25px;
+background: gray;
+margin-top: 50px;
+position: relative;
+
+}
+
+.box .item-one:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: orange;
+	transition: .8s linear;
+
+}
+
+.box .item-one:hover:before{
+	width: 90%;
+}
+
+
+/*end one*/
+.box .item-two:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: blue;
+	transition: .8s linear;
+
+}
+
+
+
+.box .item-two:hover:before{
+	width: 70%;
+}
+
+
+/*end two*/
+
+.box .item-three:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: red;
+	transition: .8s linear;
+
+}
+
+.box .item-three:hover:before{
+	width: 50%;
+}
+/*end three*/
+
+.box .item-four:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: greenyellow;
+	transition: .8s linear;
+
+}
+
+.box .item-four:hover:before{
+	width: 30%;
+}
+/*end four*/
+
+.box .item-five:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background:darkblue;
+	transition: .8s linear;
+
+}
+
+.box .item-five:hover:before{
+	width: 20%;
+}
+
+/*end five*/
+
+
+
+.box .item-one:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: orange;
+	transition: .8s linear;
+
+}
+
+.box .item-one:hover:before{
+	width: 90%;
+}
+
+
+/*end one*/
+.box .item-two:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: blue;
+	transition: .8s linear;
+
+}
+
+
+
+.box .item-two:hover:before{
+	width: 70%;
+}
+
+
+/*end two*/
+
+.box .item-three:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: red;
+	transition: .8s linear;
+
+}
+
+.box .item-three:hover:before{
+	width: 50%;
+}
+/*end three*/
+
+.box .item-four:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: greenyellow;
+	transition: .8s linear;
+
+}
+
+.box .item-four:hover:before{
+	width: 30%;
+}
+/*end four*/
+
+.box .item-five:before{
+
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background:darkblue;
+	transition: .8s linear;
+
+}
+
+.box .item-five:hover:before{
+	width: 100%;
+}
+
+/*end five*/
+
+
+
+span{
+
+color: white;
+}
+
+.box2{
+	width: 100px;
+	height: 35px;
+	background: black;
+	float: left;
+	position: relative;
+	margin-top: -47px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transition: .8s linear;
+transform: translate(-100px);
+
+}
+
+.box2.span-one:before{
+
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: -22;
+	content: '';
+	top: 0;
+	left: 0;
+	background: black;
+	margin-top: 22px;
+	border-radius: 2px	;
+	margin-left: 40px;
+	transform: rotate(45deg);
+}
+
+.item-one:hover .box2.span-one{
+	transform: translate(300px);
+}
+
+/*end sapn-one*/
+
+.box2.span-two:before{
+
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: -22;
+	content: '';
+	top: 0;
+	left: 0;
+	background: black;
+	margin-top: 22px;
+	border-radius: 2px	;
+	margin-left: 40px;
+	transform: rotate(45deg);
+}
+
+.item-two:hover .box2.span-two{
+	transform: translate(220px);
+}
+
+
+
+.box2.span-three:before{
+
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: -22;
+	content: '';
+	top: 0;
+	left: 0;
+	background: black;
+	margin-top: 22px;
+	border-radius: 2px	;
+	margin-left: 40px;
+	transform: rotate(45deg);
+}
+
+.item-three:hover .box2.span-three{
+	transform: translate(140px);
+}
+
+
+.box2.span-four:before{
+
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: -22;
+	content: '';
+	top: 0;
+	left: 0;
+	background: black;
+	margin-top: 22px;
+	border-radius: 2px	;
+	margin-left: 40px;
+	transform: rotate(45deg);
+}
+
+.item-four:hover .box2.span-four{
+	transform: translate(60px);
+}
+
+
+.box2.span-five:before{
+
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: -22;
+	content: '';
+	top: 0;
+	left: 0;
+	background: black;
+	margin-top: 22px;
+	border-radius: 2px	;
+	margin-left: 40px;
+	transform: rotate(45deg);
+}
+
+.item-five:hover .box2.span-five{
+	transform: translate(340px);
+}

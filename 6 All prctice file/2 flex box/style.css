@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+background: gray;
+font-family: nosifer;
+color: white;
+font-size: 25px;
+
+}
+
+.box{
+	position: absolute;
+	width: 800px;
+	height: 100px;
+	background: darkblue;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.box1{
+background: ghostwhite;
+width: 100px;
+height: 100px;
+float: left;
+
+}
+
+.box2{
+background: saddlebrown;
+width: 100px;
+height: 100px;
+float: left;
+
+}
+
+.box3{
+background: gold;
+width: 100px;
+float: left;
+height: 100px;
+
+}
+.box4{
+background: honeydew;
+width: 100px;
+height: 100px;
+
+}

@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.wrapper{
+	width: 100%;
+	height: 600px;
+		float: left;
+	background: lightgray;
+
+}
+
+
+
+.wrapper form{
+	width: 260px;
+	height: 500px;
+	margin: 50px auto;
+	background: linear-gradient(#2E302D,#060807);
+	
+	border-radius: 40px;
+
+}
+
+.wrapper form h1{
+	text-align: center;
+	color:#5778CE;
+	font-family: sans-serif;
+	font-weight: 550;
+	padding-top: 35px;
+}
+
+
+.wrapper form input{
+
+	padding: 12px 35px;
+	margin-top: 15px;
+	border-radius: 15px;
+	background: #1D1F1C;
+	position: relative;
+	padding-left:3-0px;
+	font-size: 14px;
+	margin-left: 10px;
+/*	outline: none;*/
+   box-shadow:         inset 0 0 8px #000000;
+   border: none;
+
+}
+
+.wrapper form i{
+	margin-left: 30px;
+	position: absolute;
+	margin-top: 20px;
+	color: gray;
+
+}
+
+
+.wrapper form button{
+
+	width: 240px;
+	height: 45px;
+	margin-top: 15px;
+	border-radius: 20px;
+	background:#131512;
+	font-size: 20px;
+	margin-left: 10px;
+   border: none;
+   font-weight: bold;
+   color:#5778CE;
+    box-shadow:          0 0 10px #000000;
+
+
+}
+
+
+.wrapper form p{
+	             text-align: center;
+	             color: gray;
+	             font-family: tahoma;
+	             font-weight: normal;
+}
+
+
+
+.wrapper form ul{
+	width: 250px;
+	margin-left: 20px;
+	margin-top: 25px;
+
+}
+
+
+.wrapper form ul li{
+    box-shadow:          0 0 10px #000000;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	margin-left: 15px;
+	float: left;
+	background-color: #131917;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+}
+
+
+.wrapper form ul li i{
+	
+	margin: 0;
+
+
+	float: left;
+	color: #5778CE;
+}
+
+.wrapper form .btn{
+	width: 120px;
+	height: 30px;
+	margin-top: 18px;
+	border-radius: 10px;
+	background:#131512;
+	font-size: 16px;
+	margin-left: 70px;
+   border: none;
+   font-weight: bold;
+   color:white;
+    box-shadow:          0 0 10px #000000;
+
+}

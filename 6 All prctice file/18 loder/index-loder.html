@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loder</title>
+	<style type="text/css">
+
+
+	body{
+
+		margin: 0;
+		padding: 0;
+		 background: purple;
+	}
+	.loder{
+
+		position: absolute;
+		top: 40%;
+		left: 40%;
+		width: 100px;
+		height: 100px;
+		border: 8px solid rgba(255, 255, 255, .1);
+		border-radius: 50%;
+		border-top: 8px solid white;
+		animation: loder 1s linear infinite;
+	}
+	@keyframes loder{
+		0%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(360deg);
+		}
+	}
+
+
+</style>
+</head>
+<body>
+		<div class="loder">
+
+
+		</div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Javascript</title>
+<style type="text/css">
+
+	body{
+
+		font-size: roboto;
+	}
+
+	.overlay{
+
+		position: absolute;
+		width: 50%;
+		height: 100vh;
+		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, .9);
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-x: hidden;
+		transition: .5s;
+
+	}
+
+	.content{
+
+position: relative;
+top: 25%;
+left: 38px;
+text-align: center;
+	}
+
+	.content a{
+
+		display: block;
+		text-decoration: none;
+		font-size: 30px;
+		margin-top: 10px;
+		color: gray;
+	}
+
+	.content a:hover{
+
+		color: white;
+	}
+
+	.closebtn{
+		position: absolute;
+		top: 20px;
+		right: 0;
+		text-decoration: none;
+		font-size: 45px;
+		color:white;
+	}
+
+</style>
+
+</head>
+<body>
+
+		<div id="myNav"class="overlay">
+
+			<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="content">
+			<a href="#">Home</a>
+			<a href="#">Home</a>
+			<a href="#">Home</a>
+			<a href="#">Home</a>
+			</div>
+		</div>
+
+		<span style="font-size: 30px"onclick="openNav()">&#9776;Open</span>
+
+</body>
+</html>

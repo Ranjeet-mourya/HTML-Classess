@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+
+
+*{
+		margin: 0;	
+		padding: 0;
+		list-style-type: none;
+		text-decoration: none;
+}
+
+.wrapper{
+		width: 	100%;
+		height: 100vh;
+}
+
+header{
+
+		width: 	100%;
+		height: 70px;
+		background	: gray;
+		box-shadow: 5px 0 20px rgba(0, 0, 0, .50);
+}
+
+header h1{
+		color:white;
+		float: 	left;
+		margin: 15px 60px;
+}
+
+header nav{
+		width: 	80%;
+		height: 70px;
+		float: 	left;
+}
+
+header nav .unoder{
+		width: 	70%;
+		height: 70px;
+		float: 	left;
+		position: 	relative;
+}
+
+
+header nav .unoder li{
+		padding: 	22px 35px;
+		float: 	left	;
+}
+
+
+
+
+header nav .unoder li a{
+		font-size: 	18px;
+		color: 	black	;
+		transition: .5s;
+}
+
+header nav .unoder li:hover a{
+
+		color:orange	;
+}
+
+
+header nav .icon{
+		width: 	16%;
+		height: 70px;
+		float: 	right;
+}
+
+
+header nav .icon li{
+		padding: 	22px 15px;
+		font-size: 18px;
+		float: 	left	;
+}
+
+header nav .icon li:hover i{
+
+		color:orange	;
+}
+
+
+/*start new li*/
+
+header nav ul .list .image{
+		width: 	1200px;
+		height: 	350px;
+		background: white	;
+		box-shadow: 5px 5px 20px rgba(0, 0, 0, .50);
+		position: absolute;
+		margin-top: 25px;
+		left: -200px;
+		display: 	none;
+}
+
+
+header nav ul .list:hover .image{
+		display: block;
+}
+
+
+header nav ul .list .image figure{
+		width: 	250px;
+		height: 300px;
+		float: 	left;
+		margin-left: 40px;
+}
+
+
+header nav ul .list .image figure img{
+		width: 	100%;
+		height: 	100%;
+}
+
+
+/*start shop li*/
+
+
+
+
+header nav ul .list .image-shop{
+		width: 	1200px;
+		height: 	350px;
+		background: white;
+		position: absolute;
+		margin-top: 25px;
+		left: -200px;
+		box-shadow: 5px 5px 20px rgba(0, 0, 0, .50);
+		display: 	none;
+}
+
+
+header nav ul .list:hover .image-shop{
+		display: block;
+}
+
+
+header nav ul .list .image-shop .list-item{
+		width: 	250px;
+		height: 300px;
+		float: 	left;
+		margin-left: 40px;
+}
+
+
+header nav ul .list .image-blog .list-item h3{
+
+
+		color: 	orange	;
+		cursor: 	pointer	;
+}
+
+
+header nav ul .list .image-shop .list-item li:hover{
+		color: 	orange	;
+}
+
+
+header nav ul .list .image-shop .list-item img{
+		width: 	80%;
+		height: 	80%;
+		margin: 50px;
+}
+
+
+/*start blog*/
+
+
+
+
+header nav ul .list .image-blog{
+		width: 	250px;
+		height: 	200px;
+		background: white;
+		position: absolute;
+		margin-top: 25px;
+		left: 300px;
+		box-shadow: 5px 5px 20px rgba(0, 0, 0, .50);
+		display: 	none;
+}
+
+
+header nav ul .list:hover .image-blog{
+		display: block;
+}
+
+
+header nav ul .list .image-blog .list-item1{
+		width: 	250px;
+		height: 200px;
+		float: 	left;
+}
+
+header nav ul .list .image-blog .list-item1 span{
+		
+		font-size: 	25px;
+		color: 	black;
+		margin-left: 	20px;
+}
+
+
+header nav ul .list .image-blog .list-item1 span:hover{
+		color: 	orange;
+}
+
+
+
+
+
+/*start page*/
+
+
+
+
+header nav ul .list .image-page{
+		width: 	250px;
+		height: 	200px;
+		background: white;
+		position: absolute;
+		margin-top: 25px;
+		left: 400px;
+		box-shadow: 5px 5px 20px rgba(0, 0, 0, .50);
+		display: 	none;
+}
+
+
+header nav ul .list:hover .image-page{
+		display: block;
+}
+
+
+header nav ul .list .image-page .list-item1{
+		width: 	250px;
+		height: 200px;
+		float: 	left;
+}
+
+header nav ul .list .image-page .list-item1 span{
+		
+		font-size: 	25px;
+		color: 	black;
+		margin-left: 	20px;
+}
+
+
+header nav ul .list .image-page .list-item1 span:hover{
+		color: 	orange;
+}
+
+
+section{
+	width: 100%;
+	height: 100vh;
+	background: url(img/6.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}

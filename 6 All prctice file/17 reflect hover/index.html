@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animation Reflect</title>
+	<style type="text/css">
+
+	*{
+
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	body{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			background:skyblue ;
+
+	}
+
+
+	.wrapper{
+
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+-webkit-box-reflect:below 1px linear-gradient(#0001,#0004);
+	}
+		.loder{
+
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 50%;
+				background: forestgreen;
+				animation: box 2s linear infinite;
+				
+		}
+		@keyframes box{
+
+			0%{
+
+				transform: rotate(0deg);
+			}
+			0%{
+
+				transform: rotate(360deg);
+			}
+		}
+
+		.loder span::before{
+
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 0;
+			width: 50%;
+			height: 100%;
+	background: linear-gradient(transparent,rgba(0,255,249,.4));
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+		}
+
+		.loder span::after{
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 30px;
+			height: 20px;
+			background: cyan;
+			border-radius: 50%;
+			z-index: 10;
+			box-shadow: 0 0 10px cyan,
+						 0 0 20px cyan,
+						 0 0 30px cyan,
+						 0 0 40px cyan,
+						 0 0 50px cyan,
+						 0 0 60px cyan,
+						 0 0 70px cyan,
+						 0 0 80px cyan,
+						 0 0 100px cyan;
+		}
+
+		.loder span{
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			bottom: 20px;
+			right: 20px;
+			background: black;
+			border-radius: 50%;
+			width: 80%;
+			height: 80%;
+			border: 2px solid red;
+
+		}
+
+</style>
+</head>
+<body>
+		<div class="wrapper">
+
+			<div class="loder">
+
+				<span></span>
+			</div>
+		</div>
+</body>
+</html>

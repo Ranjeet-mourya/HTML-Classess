@@ -1,0 +1,193 @@
+body{
+
+
+margin: 0;
+padding: 0;
+}
+
+
+.wrapper{
+width: 100%;
+height: 600px;
+background-image: url(image/slider.jpg);
+background-size: 100% 100%;
+position: fixed;
+background-repeat: no-repeat;
+}
+
+
+.wrapper .owerlay{
+width: 100%;
+height: 100vh;
+background: rgba(241, 196, 15,.9);
+
+}
+.wrapper header{
+width: 100%;
+height: 50px;
+background-color: #263137;
+
+}
+
+
+.wrapper header .logo{
+float: left;
+width: 100px;
+height: 50px;
+margin-left: 50px;
+margin-top: 10px;
+
+}
+
+
+.wrapper header .logo img{
+width: 100%;
+height: auto;
+
+}
+.wrapper header ul{
+
+	width:38%;
+	height: 50px;
+	margin-left: 25%;
+	float: left;
+	margin-top: -0px;
+}
+
+
+.wrapper header ul li{
+	width: 100px;
+	height: 50px;
+	list-style: none;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.wrapper header ul li a{
+	text-decoration: none;
+	color: orange;
+
+	font-size: 18px;
+}
+
+
+
+.wrapper header button{
+padding: 2px 25px;
+background-color: transparent;
+color: orange;
+border: none;
+outline: none;
+	font-size: 18px;
+	margin-top: 15px;
+
+}
+
+/*start slider*/
+.wrapper section {
+	width: 90% ;
+	height: 510px;
+	margin: 50px auto;
+
+ }
+
+.wrapper section .contant{
+
+	width: 60%;
+	height: 500px;
+	float: left;
+
+}
+
+.wrapper section .contant h1{
+	font-size: 40px;
+	color: black;
+	font-weight: normal;
+}
+.wrapper section .contant ul{
+	list-style: none;
+	margin-left: -50px;
+	width: 350px;
+	height: 400px;
+	float: left;
+	color: black;
+
+}
+
+.wrapper section .contant ul li{
+width: 380px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+}
+
+.wrapper section .contant ul li i{
+font-size: 20px;
+background-color: white;
+width: 50px;
+height: 50px;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+float: left;
+}
+
+.wrapper section .contant ul p{
+margin-left: 70px;
+margin-top: 10px;
+
+}
+.wrapper section form{
+
+	width: 28%;
+	height: 450px;
+	float: left;
+	margin: 40px 70px;
+	background: rgba(0, 0, 0, .5);
+
+}
+
+.wrapper section form h1{
+	text-align: center;
+	margin-top: 40px;
+	color: white;
+	font-size: 36px;
+}
+
+.wrapper section form input{
+width: 80%;
+	height: 35px;
+	margin-left: 30px;
+	margin-top: -20px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+
+}
+.wrapper section form p{
+margin-left:30px ;
+color: white;
+}
+
+
+.wrapper section form button{
+	width: 82%;
+	height: 40px;
+	border-radius: 5px;
+	background: orange;
+	color: white;
+	font-size: 18px;
+	outline: none;
+	border: none;
+	margin-left: 30px;
+	margin-top: 20px;
+
+}
+
+

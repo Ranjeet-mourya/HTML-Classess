@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.progress{
+	width: 530px;
+	height:550px;
+	background: cyan ;
+	float: left;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+
+.progress .timeline{
+	width: 90%;
+	height: 15px;
+	background: yellow;
+	position: relative;
+	margin-top: 50px;
+}
+
+span{
+	color: #fff;
+	font-weight: bold;
+}
+.progress .timeline.one:before{
+	background: green;
+	width: 0;
+	content: '';
+	position: absolute;
+	height: 15px;
+	top: 0;
+	transition: .5s;
+	left: 0;
+}
+
+.progress .timeline.one:hover:before{
+	width: 80%;
+}
+
+.progress .timeline.two:before{
+	background: white;
+	width: 0;
+	content: '';
+	position: absolute;
+	height: 15px;
+	top: 0;
+	left: 0;
+	transition: .5s;
+}
+
+.progress .timeline.two:hover:before{
+	width: 70%;
+}
+
+.progress .timeline.three:before{
+	background: black;
+	width: 0%;
+	content: '';
+	position: absolute;
+	height: 15px;
+	top: 0;
+	left: 0;
+	transition: .5s;
+}
+
+.progress .timeline.three:hover:before{
+	width: 100%;
+}
+
+.progress .timeline.four:before{
+	background: orange;
+	width: 0%;
+	content: '';
+	position: absolute;
+	height: 15px;
+	top: 0;
+	transition: .5s;
+	left: 0;
+}
+
+.progress .timeline.four:hover:before{
+	width: 50%;
+}
+
+.progress .timeline.five:before{
+	background: blue;
+	width: 0%;
+	content: '';
+	position: absolute;
+	height: 15px;
+	top: 0;
+	left: 0;
+	transition: .5s;
+}
+
+.progress .timeline.five:hover:before{
+	width: 20%;
+}
+
+
+ .timeline-one{
+	width: 100px;
+	height: 30px;
+	background: red;
+	border-radius: 10px;
+	margin-top: -50px;
+	float: left;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	transition: .5s;
+	transform: translateX(-100px);
+}
+
+ .timeline-one:before{
+ 	position: absolute;
+ 	width: 20px;
+ 	height: 20px;
+ 	background: red;
+ 	content: '';
+ 	top: 50%;
+ 	left: 40%;
+ 	transform: rotate(45deg);
+ 	z-index: -1;
+
+ }
+
+ .progress .timeline.one:hover .timeline-one{
+ 	transform: translateX(330px);
+ }
+
+ /*End Timeline one*/
+
+ .timeline-two{
+	width: 100px;
+	height: 30px;
+	background: red;
+	border-radius: 10px;
+	margin-top: -50px;
+	float: left;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	transition: .5s;
+	transform: translateX(-100px);
+}
+
+ .timeline-two:before{
+ 	position: absolute;
+ 	width: 20px;
+ 	height: 20px;
+ 	background: red;
+ 	content: '';
+ 	top: 50%;
+ 	left: 40%;
+ 	transform: rotate(45deg);
+ 	z-index: -1;
+
+ }
+
+ .progress .timeline.two:hover .timeline-two{
+ 	transform: translateX(280px);
+ }
+
+ /*End Timeline Two*/
+
+
+ .timeline-three{
+	width: 100px;
+	height: 30px;
+	background: red;
+	border-radius: 10px;
+	margin-top: -50px;
+	float: left;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	transition: .5s;
+	transform: translateX(-100px);
+}
+
+ .timeline-three:before{
+ 	position: absolute;
+ 	width: 20px;
+ 	height: 20px;
+ 	background: red;
+ 	content: '';
+ 	top: 50%;
+ 	left: 40%;
+ 	transform: rotate(45deg);
+ 	z-index: -1;
+
+ }
+
+ .progress .timeline.three:hover .timeline-three{
+ 	transform: translateX(420px);
+ }
+
+ /*End timeline three*/
+
+ .timeline-four{
+	width: 100px;
+	height: 30px;
+	background: red;
+	border-radius: 10px;
+	margin-top: -50px;
+	float: left;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	transition: .5s;
+	transform: translateX(-100px);
+}
+
+ .timeline-four:before{
+ 	position: absolute;
+ 	width: 20px;
+ 	height: 20px;
+ 	background: red;
+ 	content: '';
+ 	top: 50%;
+ 	left: 40%;
+ 	transform: rotate(45deg);
+ 	z-index: -1;
+
+ }
+
+ .progress .timeline.four:hover .timeline-four{
+ 	transform: translateX(190px);
+ }
+
+ /*End timeline Four*/
+
+ .timeline-five{
+	width: 100px;
+	height: 30px;
+	background: red;
+	border-radius: 10px;
+	margin-top: -50px;
+	float: left;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	transition: .5s;
+	transform: translateX(-100px);
+}
+
+ .timeline-five:before{
+ 	position: absolute;
+ 	width: 20px;
+ 	height: 20px;
+ 	background: red;
+ 	content: '';
+ 	top: 50%;
+ 	left: 40%;
+ 	transform: rotate(45deg);
+ 	z-index: -1;
+
+ }
+
+ .progress .timeline.five:hover .timeline-five{
+ 	transform: translateX(40px);
+ }
+
+
+
+
+
+

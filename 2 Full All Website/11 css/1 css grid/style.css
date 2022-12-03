@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.grid-container{
+			width: 700px;
+			background: #eee;
+			margin: 70px 0 0 50px;
+			display: grid;
+			grid-template-columns:repeat(2, 100px)1fr;
+			grid-template-rows:1fr 1fr 1fr ;
+			grid-gap: 20px;
+
+
+}
+
+.one{
+
+background: orangered;
+}
+
+
+
+.two{
+
+background: paleturquoise;
+}
+
+
+
+.three{
+
+background: silver;
+}
+
+
+.four{
+
+background: greenyellow;
+}
+
+
+.five{
+
+background: olivedrab;
+}
+
+
+.six{
+
+background: blue;
+}

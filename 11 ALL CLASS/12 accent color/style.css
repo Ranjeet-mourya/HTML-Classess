@@ -1,0 +1,10 @@
+input{
+
+	accent-color: orange;
+	caret-color: blue;
+}
+
+p::selection{
+	background: black;
+	color: yellow;
+}

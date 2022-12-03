@@ -1,0 +1,59 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+.container{
+
+	height: 400px;
+	width: 500px;
+	display: flex;
+
+}
+
+
+
+.items{
+	height: 100px;
+	width: 100px;
+
+}
+
+.item1{
+
+	background: red;
+	order: 1;
+	
+}
+
+
+.item2{
+
+	background: saddlebrown;
+
+	
+}
+
+
+.item3{
+
+	background: orange;
+	
+}
+
+.item4{
+
+	background: greenyellow;
+	
+}
+
+.item5{
+
+	background: darkcyan;
+}
+
+
